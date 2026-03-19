@@ -1,0 +1,1486 @@
+{
+  "1": [
+    {
+      "en": "Abandon",
+      "tr": "Terk etmek",
+      "sentence": "The researchers had to abandon the experiment due to safety concerns.",
+      "sentence_tr": "Araştırmacılar, güvenlik endişeleri nedeniyle deneyi terk etmek zorunda kaldı.",
+      "status": "correct"
+    },
+    {
+      "en": "Absorb",
+      "tr": "Emmek/Soğurmak",
+      "sentence": "Plants absorb carbon dioxide from the atmosphere during photosynthesis.",
+      "sentence_tr": "Bitkiler fotosentez sırasında atmosferden karbondioksit emerler.",
+      "status": "correct"
+    },
+    {
+      "en": "Accelerate",
+      "tr": "Hızlanmak",
+      "sentence": "The widespread use of the internet has accelerated the globalization process.",
+      "sentence_tr": "İnternetin yaygın kullanımı küreselleşme sürecini hızlandırdı.",
+      "status": "correct"
+    },
+    {
+      "en": "Achieve",
+      "tr": "Başarmak",
+      "sentence": "She worked hard for years to achieve her academic goals.",
+      "sentence_tr": "Akademik hedeflerine ulaşmak (başarmak) için yıllarca çok çalıştı.",
+      "status": "correct"
+    },
+    {
+      "en": "Adapt",
+      "tr": "Uyum sağlamak",
+      "sentence": "Animals must adapt to their changing environments to survive.",
+      "sentence_tr": "Hayvanlar hayatta kalabilmek için değişen çevrelerine uyum sağlamalıdır.",
+      "status": "correct"
+    },
+    {
+      "en": "Adopt",
+      "tr": "Benimsemek",
+      "sentence": "The committee decided to adopt a new approach to solve the problem.",
+      "sentence_tr": "Komite, sorunu çözmek için yeni bir yaklaşım benimsemeye karar verdi.",
+      "status": "correct"
+    },
+    {
+      "en": "Alter",
+      "tr": "Değiştirmek",
+      "sentence": "The discovery of DNA fundamentally altered our understanding of biology.",
+      "sentence_tr": "DNA'nın keşfi, biyoloji anlayışımızı temelden değiştirdi.",
+      "status": "correct"
+    },
+    {
+      "en": "Analyze",
+      "tr": "Analiz etmek",
+      "sentence": "Scientists analyze data collected from space telescopes to understand the universe.",
+      "sentence_tr": "Bilim insanları evreni anlamak için uzay teleskoplarından toplanan verileri analiz eder.",
+      "status": null
+    },
+    {
+      "en": "Apply",
+      "tr": "Başvurmak/Uygulamak",
+      "sentence": "The new regulations will apply to all businesses in the sector.",
+      "sentence_tr": "Yeni düzenlemeler sektördeki tüm işletmelere uygulanacak.",
+      "status": null
+    },
+    {
+      "en": "Approve",
+      "tr": "Onaylamak",
+      "sentence": "The parliament is expected to approve the new budget next week.",
+      "sentence_tr": "Parlamentonun yeni bütçeyi haftaya onaylaması bekleniyor.",
+      "status": null
+    },
+    {
+      "en": "Arise",
+      "tr": "Ortaya çıkmak",
+      "sentence": "Several complications can arise during this surgical procedure.",
+      "sentence_tr": "Bu cerrahi prosedür sırasında çeşitli komplikasyonlar ortaya çıkabilir.",
+      "status": null
+    },
+    {
+      "en": "Assess",
+      "tr": "Değerlendirmek",
+      "sentence": "Examinations are used to assess the students' understanding of the subject.",
+      "sentence_tr": "Sınavlar, öğrencilerin konuyu anlamalarını değerlendirmek için kullanılır.",
+      "status": null
+    },
+    {
+      "en": "Assume",
+      "tr": "Varsaymak",
+      "sentence": "It is a mistake to assume that all people think the same way.",
+      "sentence_tr": "Tüm insanların aynı şekilde düşündüğünü varsaymak bir hatadır.",
+      "status": null
+    },
+    {
+      "en": "Attain",
+      "tr": "Elde etmek",
+      "sentence": "He finally attained the position of CEO after years of hard work.",
+      "sentence_tr": "Yıllarca süren sıkı çalışmanın ardından nihayet CEO pozisyonunu elde etti.",
+      "status": null
+    },
+    {
+      "en": "Avoid",
+      "tr": "Kaçınmak",
+      "sentence": "People should avoid consuming excessive amounts of sugar for a healthier life.",
+      "sentence_tr": "İnsanlar daha sağlıklı bir yaşam için aşırı miktarda şeker tüketmekten kaçınmalıdır.",
+      "status": null
+    },
+    {
+      "en": "Boost",
+      "tr": "Artırmak",
+      "sentence": "Regular exercise can significantly boost your immune system.",
+      "sentence_tr": "Düzenli egzersiz bağışıklık sisteminizi önemli ölçüde artırabilir.",
+      "status": null
+    },
+    {
+      "en": "Broaden",
+      "tr": "Genişletmek",
+      "sentence": "Reading books helps to broaden our perspective on various issues.",
+      "sentence_tr": "Kitap okumak, çeşitli konulardaki bakış açımızı genişletmeye yardımcı olur.",
+      "status": null
+    },
+    {
+      "en": "Cancel",
+      "tr": "İptal etmek",
+      "sentence": "The flight was cancelled due to severe weather conditions.",
+      "sentence_tr": "Şiddetli hava koşulları nedeniyle uçuş iptal edildi.",
+      "status": null
+    },
+    {
+      "en": "Capture",
+      "tr": "Ele geçirmek",
+      "sentence": "The documentary manages to capture the beauty of the Amazon rainforest.",
+      "sentence_tr": "Belgesel, Amazon yağmur ormanlarının güzelliğini yakalamayı (ele geçirmeyi) başarıyor.",
+      "status": null
+    },
+    {
+      "en": "Cause",
+      "tr": "Sebep olmak",
+      "sentence": "Heavy rains caused widespread flooding in the southern regions.",
+      "sentence_tr": "Şiddetli yağmurlar güney bölgelerde yaygın sellere sebep oldu.",
+      "status": null
+    },
+    {
+      "en": "Cease",
+      "tr": "Durdurmak",
+      "sentence": "The factory will cease operations by the end of this year.",
+      "sentence_tr": "Fabrika bu yılın sonuna kadar faaliyetlerini durduracak.",
+      "status": null
+    },
+    {
+      "en": "Clarify",
+      "tr": "Açıklığa kavuşturmak",
+      "sentence": "The professor provided an extra example to clarify the complex theory.",
+      "sentence_tr": "Profesör, karmaşık teoriyi açıklığa kavuşturmak için ekstra bir örnek verdi.",
+      "status": null
+    },
+    {
+      "en": "Collaborate",
+      "tr": "İş birliği yapmak",
+      "sentence": "Several universities will collaborate on the new research project.",
+      "sentence_tr": "Birkaç üniversite yeni araştırma projesinde iş birliği yapacak.",
+      "status": null
+    },
+    {
+      "en": "Compel",
+      "tr": "Zorlamak",
+      "sentence": "The law compels employers to provide a safe working environment.",
+      "sentence_tr": "Yasa, işverenleri güvenli bir çalışma ortamı sağlamaya zorlar.",
+      "status": null
+    },
+    {
+      "en": "Comply",
+      "tr": "Uymak",
+      "sentence": "All companies must comply with the new environmental regulations.",
+      "sentence_tr": "Tüm şirketler yeni çevre düzenlemelerine uymak zorundadır.",
+      "status": null
+    },
+    {
+      "en": "Conduct",
+      "tr": "Yürütmek",
+      "sentence": "The researchers conducted a series of experiments to test their hypothesis.",
+      "sentence_tr": "Araştırmacılar, hipotezlerini test etmek için bir dizi deney yürüttüler.",
+      "status": null
+    },
+    {
+      "en": "Consist of",
+      "tr": "Oluşmak",
+      "sentence": "A water molecule consists of two hydrogen atoms and one oxygen atom.",
+      "sentence_tr": "Bir su molekülü iki hidrojen atomu ve bir oksijen atomundan oluşur.",
+      "status": null
+    },
+    {
+      "en": "Consume",
+      "tr": "Tüketmek",
+      "sentence": "Industrialized countries consume more energy than developing nations.",
+      "sentence_tr": "Sanayileşmiş ülkeler, gelişmekte olan ülkelere göre daha fazla enerji tüketir.",
+      "status": null
+    },
+    {
+      "en": "Contribute",
+      "tr": "Katkıda bulunmak",
+      "sentence": "Human activities contribute significantly to global warming.",
+      "sentence_tr": "İnsan faaliyetleri küresel ısınmaya önemli ölçüde katkıda bulunur.",
+      "status": null
+    },
+    {
+      "en": "Convert",
+      "tr": "Dönüştürmek",
+      "sentence": "The solar panels convert sunlight into electrical energy.",
+      "sentence_tr": "Güneş panelleri güneş ışığını elektrik enerjisine dönüştürür.",
+      "status": null
+    }
+  ],
+  "2": [
+    {
+      "en": "Abundant",
+      "tr": "Bol",
+      "sentence": "The region has an abundant supply of natural resources.",
+      "sentence_tr": "Bölge bol miktarda doğal kaynağa sahiptir.",
+      "status": null
+    },
+    {
+      "en": "Accurate",
+      "tr": "Doğru/Kesin",
+      "sentence": "It is essential to provide accurate information on your application form.",
+      "sentence_tr": "Başvuru formunuzda doğru (kesin) bilgi vermeniz esastır.",
+      "status": null
+    },
+    {
+      "en": "Adverse",
+      "tr": "Olumsuz",
+      "sentence": "The drug has some adverse side effects that patients should be aware of.",
+      "sentence_tr": "İlacın hastaların farkında olması gereken bazı olumsuz yan etkileri vardır.",
+      "status": null
+    },
+    {
+      "en": "Ambitious",
+      "tr": "Hırslı",
+      "sentence": "The government has announced an ambitious plan to reduce carbon emissions.",
+      "sentence_tr": "Hükümet karbon emisyonlarını azaltmak için hırslı bir plan açıkladı.",
+      "status": null
+    },
+    {
+      "en": "Annual",
+      "tr": "Yıllık",
+      "sentence": "The company published its annual financial report yesterday.",
+      "sentence_tr": "Şirket dün yıllık mali raporunu yayımladı.",
+      "status": null
+    },
+    {
+      "en": "Apparent",
+      "tr": "Açık/Belli",
+      "sentence": "It was apparent that he had not prepared for the presentation.",
+      "sentence_tr": "Sunum için hazırlanmadığı açıktı (belliydi).",
+      "status": null
+    },
+    {
+      "en": "Appropriate",
+      "tr": "Uygun",
+      "sentence": "You must wear appropriate clothing for the job interview.",
+      "sentence_tr": "İş görüşmesi için uygun kıyafetler giymelisiniz.",
+      "status": null
+    },
+    {
+      "en": "Artificial",
+      "tr": "Yapay",
+      "sentence": "The use of artificial intelligence is increasing in the healthcare sector.",
+      "sentence_tr": "Sağlık sektöründe yapay zeka kullanımı artıyor.",
+      "status": null
+    },
+    {
+      "en": "Brief",
+      "tr": "Kısa/Öz",
+      "sentence": "The president gave a brief statement to the press.",
+      "sentence_tr": "Başkan basına kısa bir açıklama yaptı.",
+      "status": null
+    },
+    {
+      "en": "Capable",
+      "tr": "Yetenekli",
+      "sentence": "He is a highly capable engineer who can handle complex projects.",
+      "sentence_tr": "O, karmaşık projelerin üstesinden gelebilecek son derece yetenekli bir mühendistir.",
+      "status": null
+    },
+    {
+      "en": "Chronic",
+      "tr": "Kronik",
+      "sentence": "She suffers from chronic back pain that affects her daily life.",
+      "sentence_tr": "Günlük yaşamını etkileyen kronik sırt ağrısından muzdarip.",
+      "status": null
+    },
+    {
+      "en": "Cognitive",
+      "tr": "Bilişsel",
+      "sentence": "As children grow, their cognitive abilities develop rapidly.",
+      "sentence_tr": "Çocuklar büyüdükçe bilişsel yetenekleri hızla gelişir.",
+      "status": null
+    },
+    {
+      "en": "Coherent",
+      "tr": "Uyumlu",
+      "sentence": "The author presented a clear and coherent argument in his essay.",
+      "sentence_tr": "Yazar makalesinde açık ve uyumlu bir argüman sundu.",
+      "status": null
+    },
+    {
+      "en": "Common",
+      "tr": "Yaygın",
+      "sentence": "It is a common misconception that bats are blind.",
+      "sentence_tr": "Yarasaların kör olduğu yaygın bir yanılgıdır.",
+      "status": null
+    },
+    {
+      "en": "Competitive",
+      "tr": "Rekabetçi",
+      "sentence": "The smartphone market has become highly competitive in recent years.",
+      "sentence_tr": "Akıllı telefon pazarı son yıllarda oldukça rekabetçi hale geldi.",
+      "status": null
+    },
+    {
+      "en": "Comprehensive",
+      "tr": "Kapsamlı",
+      "sentence": "The government initiated a comprehensive reform of the education system.",
+      "sentence_tr": "Hükümet eğitim sisteminde kapsamlı bir reform başlattı.",
+      "status": null
+    },
+    {
+      "en": "Crucial",
+      "tr": "Çok önemli",
+      "sentence": "Early detection is crucial for the successful treatment of the disease.",
+      "sentence_tr": "Hastalığın başarılı tedavisi için erken teşhis çok önemlidir.",
+      "status": null
+    },
+    {
+      "en": "Curious",
+      "tr": "Meraklı",
+      "sentence": "Scientists are naturally curious about how the universe works.",
+      "sentence_tr": "Bilim insanları evrenin nasıl işlediği konusunda doğal olarak meraklıdırlar.",
+      "status": null
+    },
+    {
+      "en": "Delicate",
+      "tr": "Hassas",
+      "sentence": "The negotiations are at a delicate stage and require careful handling.",
+      "sentence_tr": "Müzakereler hassas bir aşamada ve dikkatli bir yaklaşım gerektiriyor.",
+      "status": null
+    },
+    {
+      "en": "Distinct",
+      "tr": "Farklı/Belirgin",
+      "sentence": "There are several distinct differences between the two theories.",
+      "sentence_tr": "İki teori arasında birkaç farklı (belirgin) ayrım vardır.",
+      "status": null
+    },
+    {
+      "en": "Diverse",
+      "tr": "Çeşitli",
+      "sentence": "The city has a rich and diverse cultural heritage.",
+      "sentence_tr": "Şehir zengin ve çeşitli bir kültürel mirasa sahiptir.",
+      "status": null
+    },
+    {
+      "en": "Drastic",
+      "tr": "Radikal/Sert",
+      "sentence": "The company had to take drastic measures to avoid bankruptcy.",
+      "sentence_tr": "Şirket iflastan kaçınmak için radikal önlemler almak zorunda kaldı.",
+      "status": null
+    },
+    {
+      "en": "Durable",
+      "tr": "Dayanıklı",
+      "sentence": "They manufacture highly durable materials for the construction industry.",
+      "sentence_tr": "İnşaat endüstrisi için son derece dayanıklı malzemeler üretiyorlar.",
+      "status": null
+    },
+    {
+      "en": "Eager",
+      "tr": "İstekli",
+      "sentence": "The students were eager to learn more about the new software.",
+      "sentence_tr": "Öğrenciler yeni yazılım hakkında daha fazla şey öğrenmeye istekliydiler.",
+      "status": null
+    },
+    {
+      "en": "Efficient",
+      "tr": "Verimli",
+      "sentence": "We need to find a more efficient way to process the data.",
+      "sentence_tr": "Verileri işlemek için daha verimli bir yol bulmalıyız.",
+      "status": null
+    },
+    {
+      "en": "Enormous",
+      "tr": "Devasa",
+      "sentence": "The project requires an enormous amount of time and money.",
+      "sentence_tr": "Proje devasa miktarda zaman ve para gerektiriyor.",
+      "status": null
+    },
+    {
+      "en": "Essential",
+      "tr": "Gerekli",
+      "sentence": "Water is essential for the survival of all living organisms.",
+      "sentence_tr": "Su, tüm canlı organizmaların hayatta kalması için gereklidir.",
+      "status": null
+    },
+    {
+      "en": "Evident",
+      "tr": "Açık/Net",
+      "sentence": "The success of the campaign was evident from the increase in sales.",
+      "sentence_tr": "Kampanyanın başarısı satışlardaki artıştan belliydi (açıktı).",
+      "status": null
+    },
+    {
+      "en": "Excessive",
+      "tr": "Aşırı",
+      "sentence": "Excessive consumption of fast food can lead to obesity.",
+      "sentence_tr": "Aşırı fast food tüketimi obeziteye yol açabilir.",
+      "status": null
+    },
+    {
+      "en": "Explicit",
+      "tr": "Açık/Belirgin",
+      "sentence": "The instructions were explicit, leaving no room for misunderstanding.",
+      "sentence_tr": "Talimatlar açıktı ve yanlış anlaşılmaya yer bırakmıyordu.",
+      "status": null
+    }
+  ],
+  "3": [
+    {
+      "en": "Access",
+      "tr": "Erişim",
+      "sentence": "The new network configuration ensures secure access to the server.",
+      "sentence_tr": "Yeni ağ yapılandırması sunucuya güvenli erişim sağlar.",
+      "status": "correct"
+    },
+    {
+      "en": "Benefit",
+      "tr": "Fayda",
+      "sentence": "Using a stacking ensemble model provides a significant benefit in prediction accuracy.",
+      "sentence_tr": "Yığınlama topluluk modeli kullanmak, tahmin doğruluğunda önemli bir fayda sağlar.",
+      "status": null
+    },
+    {
+      "en": "Budget",
+      "tr": "Bütçe",
+      "sentence": "The research project requires a detailed budget plan for hardware expenses.",
+      "sentence_tr": "Araştırma projesi donanım harcamaları için ayrıntılı bir bütçe planı gerektirir.",
+      "status": null
+    },
+    {
+      "en": "Commodity",
+      "tr": "Ticari mal",
+      "sentence": "Data has become the most valuable commodity in the digital age.",
+      "sentence_tr": "Veri, dijital çağdaki en değerli ticari mal haline geldi.",
+      "status": null
+    },
+    {
+      "en": "Conflict",
+      "tr": "Çatışma",
+      "sentence": "A conflict between different network protocols caused the connection error.",
+      "sentence_tr": "Farklı ağ protokolleri arasındaki bir çatışma bağlantı hatasına neden oldu.",
+      "status": null
+    },
+    {
+      "en": "Debt",
+      "tr": "Borç",
+      "sentence": "The company accumulated massive debt after investing heavily in new technologies.",
+      "sentence_tr": "Şirket yeni teknolojilere yoğun yatırım yaptıktan sonra devasa bir borç biriktirdi.",
+      "status": null
+    },
+    {
+      "en": "Decline",
+      "tr": "Düşüş/Reddetmek",
+      "sentence": "The accuracy of the model began to decline when it was tested on noisy datasets.",
+      "sentence_tr": "Model gürültülü veri setlerinde test edildiğinde doğruluğu düşmeye başladı.",
+      "status": null
+    },
+    {
+      "en": "Demand",
+      "tr": "Talep",
+      "sentence": "There is a growing demand for experts in machine learning and data science.",
+      "sentence_tr": "Makine öğrenmesi ve veri bilimi uzmanlarına yönelik artan bir talep var.",
+      "status": null
+    },
+    {
+      "en": "Dispute",
+      "tr": "Tartışma",
+      "sentence": "The engineers had a dispute over the best algorithm to use for the classification task.",
+      "sentence_tr": "Mühendisler sınıflandırma görevi için kullanılacak en iyi algoritma konusunda bir tartışma yaşadılar.",
+      "status": null
+    },
+    {
+      "en": "Domestic",
+      "tr": "Evcil/Yurt içi",
+      "sentence": "The government is encouraging the development of domestic software solutions.",
+      "sentence_tr": "Hükümet yurt içi (yerli) yazılım çözümlerinin geliştirilmesini teşvik ediyor.",
+      "status": null
+    },
+    {
+      "en": "Employment",
+      "tr": "İstihdam",
+      "sentence": "The tech sector offers numerous employment opportunities for developers.",
+      "sentence_tr": "Teknoloji sektörü geliştiriciler için sayısız istihdam olanağı sunuyor.",
+      "status": null
+    },
+    {
+      "en": "Expenditure",
+      "tr": "Harcama",
+      "sentence": "The total expenditure for the new server infrastructure exceeded expectations.",
+      "sentence_tr": "Yeni sunucu altyapısı için toplam harcama beklentileri aştı.",
+      "status": null
+    },
+    {
+      "en": "Export",
+      "tr": "İhracat",
+      "sentence": "The country aims to export its locally developed AI technologies to global markets.",
+      "sentence_tr": "Ülke, yerel olarak geliştirilen yapay zeka teknolojilerini küresel pazarlara ihraç etmeyi hedefliyor.",
+      "status": null
+    },
+    {
+      "en": "Facility",
+      "tr": "Tesis/Olanak",
+      "sentence": "The university opened a new facility dedicated to artificial intelligence research.",
+      "sentence_tr": "Üniversite, yapay zeka araştırmalarına adanmış yeni bir tesis açtı.",
+      "status": null
+    },
+    {
+      "en": "Fluctuating",
+      "tr": "Dalgalanan",
+      "sentence": "The loss function of the neural network showed a fluctuating pattern during training.",
+      "sentence_tr": "Sinir ağının kayıp fonksiyonu, eğitim sırasında dalgalanan bir model gösterdi.",
+      "status": null
+    },
+    {
+      "en": "Growth",
+      "tr": "Büyüme",
+      "sentence": "The rapid growth of cloud computing has transformed the IT industry.",
+      "sentence_tr": "Bulut bilişimin hızlı büyümesi BT endüstrisini dönüştürdü.",
+      "status": null
+    },
+    {
+      "en": "Income",
+      "tr": "Gelir",
+      "sentence": "Software engineers generally earn a higher income compared to many other professions.",
+      "sentence_tr": "Yazılım mühendisleri genellikle diğer birçok mesleğe kıyasla daha yüksek bir gelir elde ederler.",
+      "status": null
+    },
+    {
+      "en": "Inflation",
+      "tr": "Enflasyon",
+      "sentence": "High inflation rates have negatively impacted the cost of imported electronic components.",
+      "sentence_tr": "Yüksek enflasyon oranları ithal elektronik bileşenlerin maliyetini olumsuz etkiledi.",
+      "status": null
+    },
+    {
+      "en": "Investment",
+      "tr": "Yatırım",
+      "sentence": "The tech giant made a massive investment in quantum computing research.",
+      "sentence_tr": "Teknoloji devi, kuantum bilişim araştırmalarına devasa bir yatırım yaptı.",
+      "status": null
+    },
+    {
+      "en": "Labor",
+      "tr": "İş gücü",
+      "sentence": "Automation is expected to reduce the need for manual labor in manufacturing.",
+      "sentence_tr": "Otomasyonun üretimdeki el emeği (iş gücü) ihtiyacını azaltması bekleniyor.",
+      "status": null
+    },
+    {
+      "en": "Market",
+      "tr": "Piyasa",
+      "sentence": "The global market for healthcare AI solutions is expanding rapidly.",
+      "sentence_tr": "Sağlık yapay zeka çözümleri için küresel piyasa hızla genişliyor.",
+      "status": null
+    },
+    {
+      "en": "Policy",
+      "tr": "Politika",
+      "sentence": "The company implemented a strict security policy to prevent unauthorized port access.",
+      "sentence_tr": "Şirket, yetkisiz port erişimini önlemek için sıkı bir güvenlik politikası uyguladı.",
+      "status": null
+    },
+    {
+      "en": "Poverty",
+      "tr": "Yoksulluk",
+      "sentence": "Technological advancements can play a role in reducing global poverty.",
+      "sentence_tr": "Teknolojik ilerlemeler küresel yoksulluğu azaltmada rol oynayabilir.",
+      "status": null
+    },
+    {
+      "en": "Profit",
+      "tr": "Kar",
+      "sentence": "The software startup generated a substantial profit in its first year of operation.",
+      "sentence_tr": "Yazılım girişimi faaliyetinin ilk yılında önemli bir kar elde etti.",
+      "status": null
+    },
+    {
+      "en": "Recession",
+      "tr": "Durgunluk",
+      "sentence": "The economic recession led to budget cuts in several IT departments.",
+      "sentence_tr": "Ekonomik durgunluk, birkaç BT departmanında bütçe kesintilerine yol açtı.",
+      "status": null
+    },
+    {
+      "en": "Resource",
+      "tr": "Kaynak",
+      "sentence": "Processing power is a critical resource when training complex machine learning models.",
+      "sentence_tr": "İşlem gücü, karmaşık makine öğrenmesi modellerini eğitirken kritik bir kaynaktır.",
+      "status": null
+    },
+    {
+      "en": "Sector",
+      "tr": "Sektör",
+      "sentence": "The health sector is increasingly adopting diagnostic algorithms for early detection.",
+      "sentence_tr": "Sağlık sektörü, erken teşhis için teşhis algoritmalarını giderek daha fazla benimsiyor.",
+      "status": null
+    },
+    {
+      "en": "Supply",
+      "tr": "Arz/Tedarik",
+      "sentence": "The global supply of semiconductor chips was severely disrupted last year.",
+      "sentence_tr": "Yarı iletken çiplerin küresel arzı geçen yıl ciddi şekilde kesintiye uğradı.",
+      "status": null
+    },
+    {
+      "en": "Trade",
+      "tr": "Ticaret",
+      "sentence": "International trade agreements facilitate the exchange of technological innovations.",
+      "sentence_tr": "Uluslararası ticaret anlaşmaları teknolojik yeniliklerin değişimini kolaylaştırır.",
+      "status": null
+    },
+    {
+      "en": "Wealth",
+      "tr": "Zenginlik",
+      "sentence": "The accumulation of structured data often translates into wealth for modern tech companies.",
+      "sentence_tr": "Yapılandırılmış verilerin birikimi, modern teknoloji şirketleri için genellikle zenginlik anlamına gelir.",
+      "status": null
+    }
+  ],
+  "4": [
+    {
+      "en": "Ancient",
+      "tr": "Antik",
+      "sentence": "Archaeologists use modern imaging technologies to analyze ancient artifacts.",
+      "sentence_tr": "Arkeologlar antik eserleri analiz etmek için modern görüntüleme teknolojilerini kullanırlar.",
+      "status": null
+    },
+    {
+      "en": "Atmosphere",
+      "tr": "Atmosfer",
+      "sentence": "The satellite collects extensive data about the chemical composition of the Earth's atmosphere.",
+      "sentence_tr": "Uydu, Dünya atmosferinin kimyasal bileşimi hakkında kapsamlı veriler toplar.",
+      "status": null
+    },
+    {
+      "en": "Bacteria",
+      "tr": "Bakteri",
+      "sentence": "The AI model was trained to identify different types of bacteria from microscopic images.",
+      "sentence_tr": "Yapay zeka modeli, mikroskobik görüntülerden farklı bakteri türlerini tanımlamak için eğitildi.",
+      "status": null
+    },
+    {
+      "en": "Climate",
+      "tr": "İklim",
+      "sentence": "Machine learning algorithms are increasingly used to predict long-term climate changes.",
+      "sentence_tr": "Makine öğrenmesi algoritmaları uzun vadeli iklim değişikliklerini tahmin etmek için giderek daha fazla kullanılmaktadır.",
+      "status": null
+    },
+    {
+      "en": "Conservation",
+      "tr": "Koruma",
+      "sentence": "Environmental conservation requires accurate and continuous monitoring of natural habitats.",
+      "sentence_tr": "Çevre koruma, doğal yaşam alanlarının doğru ve sürekli olarak izlenmesini gerektirir.",
+      "status": null
+    },
+    {
+      "en": "Contamination",
+      "tr": "Kirlilik",
+      "sentence": "The smart sensors detect the exact level of contamination in the city's water supply.",
+      "sentence_tr": "Akıllı sensörler şehrin su kaynağındaki kirlilik seviyesini tam olarak tespit eder.",
+      "status": null
+    },
+    {
+      "en": "Cure",
+      "tr": "Tedavi",
+      "sentence": "Researchers are utilizing deep learning to accelerate the discovery of a cure for the disease.",
+      "sentence_tr": "Araştırmacılar, hastalığa bir tedavi bulunmasını hızlandırmak için derin öğrenmeden yararlanıyorlar.",
+      "status": null
+    },
+    {
+      "en": "Decade",
+      "tr": "On yıl",
+      "sentence": "The computing power of microprocessors has increased exponentially over the last decade.",
+      "sentence_tr": "Mikroişlemcilerin işlem gücü son on yılda katlanarak arttı.",
+      "status": null
+    },
+    {
+      "en": "Disease",
+      "tr": "Hastalık",
+      "sentence": "The diagnostic system achieved high accuracy in detecting the early stages of the disease.",
+      "sentence_tr": "Teşhis sistemi, hastalığın erken evrelerini tespit etmede yüksek doğruluk elde etti.",
+      "status": null
+    },
+    {
+      "en": "Ecology",
+      "tr": "Ekoloji",
+      "sentence": "Data science plays a vital role in analyzing complex ecology systems and biodiversity.",
+      "sentence_tr": "Veri bilimi, karmaşık ekoloji sistemlerini ve biyoçeşitliliği analiz etmede hayati bir rol oynar.",
+      "status": null
+    },
+    {
+      "en": "Emission",
+      "tr": "Salınım",
+      "sentence": "New software algorithms optimize engine performance to reduce harmful gas emissions.",
+      "sentence_tr": "Yeni yazılım algoritmaları, zararlı gaz salınımlarını azaltmak için motor performansını optimize eder.",
+      "status": null
+    },
+    {
+      "en": "Endangered",
+      "tr": "Nesli tükenmekte olan",
+      "sentence": "Autonomous drones are deployed to track and protect endangered animal species.",
+      "sentence_tr": "Nesli tükenmekte olan hayvan türlerini izlemek ve korumak için otonom dronlar görevlendiriliyor.",
+      "status": null
+    },
+    {
+      "en": "Energy",
+      "tr": "Enerji",
+      "sentence": "The new data center uses renewable energy sources to minimize its carbon footprint.",
+      "sentence_tr": "Yeni veri merkezi, karbon ayak izini en aza indirmek için yenilenebilir enerji kaynakları kullanıyor.",
+      "status": null
+    },
+    {
+      "en": "Evolution",
+      "tr": "Evrim",
+      "sentence": "The rapid evolution of deep learning networks has revolutionized computer vision.",
+      "sentence_tr": "Derin öğrenme ağlarının hızlı evrimi bilgisayarlı görüyü devrim niteliğinde değiştirdi.",
+      "status": null
+    },
+    {
+      "en": "Fossil fuel",
+      "tr": "Fosil yakıt",
+      "sentence": "The global transition away from fossil fuels requires innovative engineering solutions.",
+      "sentence_tr": "Fosil yakıtlardan küresel geçiş, yenilikçi mühendislik çözümleri gerektirir.",
+      "status": null
+    },
+    {
+      "en": "Genetic",
+      "tr": "Genetik",
+      "sentence": "Machine learning models can analyze vast amounts of genetic data to identify anomalies.",
+      "sentence_tr": "Makine öğrenmesi modelleri, anormallikleri tespit etmek için devasa miktardaki genetik veriyi analiz edebilir.",
+      "status": null
+    },
+    {
+      "en": "Habitat",
+      "tr": "Doğal ortam",
+      "sentence": "High-resolution satellite imagery is used to monitor the destruction of natural habitats.",
+      "sentence_tr": "Doğal yaşam alanlarının tahribatını izlemek için yüksek çözünürlüklü uydu görüntüleri kullanılmaktadır.",
+      "status": null
+    },
+    {
+      "en": "Immune",
+      "tr": "Bağışıklık",
+      "sentence": "The newly configured network is highly immune to common cyberattacks and port breaches.",
+      "sentence_tr": "Yeni yapılandırılan ağ, yaygın siber saldırılara ve port ihlallerine karşı oldukça bağışıktır (dirençlidir).",
+      "status": null
+    },
+    {
+      "en": "Infection",
+      "tr": "Enfeksiyon",
+      "sentence": "The mobile application tracks the spread of the viral infection in real-time.",
+      "sentence_tr": "Mobil uygulama, viral enfeksiyonun yayılmasını gerçek zamanlı olarak takip ediyor.",
+      "status": null
+    },
+    {
+      "en": "Layer",
+      "tr": "Tabaka",
+      "sentence": "The OSI model consists of multiple layers to ensure reliable network transmission.",
+      "sentence_tr": "OSI modeli, güvenilir ağ iletimini sağlamak için birden fazla tabakadan oluşur.",
+      "status": null
+    },
+    {
+      "en": "Medicine",
+      "tr": "Tıp/İlaç",
+      "sentence": "Artificial intelligence is fundamentally transforming the field of personalized medicine.",
+      "sentence_tr": "Yapay zeka, kişiselleştirilmiş tıp alanını temelden dönüştürüyor.",
+      "status": null
+    },
+    {
+      "en": "Mutation",
+      "tr": "Mutasyon",
+      "sentence": "The pattern recognition algorithm scans DNA sequences to detect any harmful mutation.",
+      "sentence_tr": "Örüntü tanıma algoritması, herhangi bir zararlı mutasyonu tespit etmek için DNA dizilerini tarar.",
+      "status": null
+    },
+    {
+      "en": "Nutrition",
+      "tr": "Beslenme",
+      "sentence": "The health app analyzes dietary habits to provide scientifically backed nutrition advice.",
+      "sentence_tr": "Sağlık uygulaması, bilimsel olarak desteklenen beslenme tavsiyeleri sağlamak için diyet alışkanlıklarını analiz eder.",
+      "status": null
+    },
+    {
+      "en": "Organism",
+      "tr": "Organizma",
+      "sentence": "Biologists use computational tools to study the genetic code of a microscopic organism.",
+      "sentence_tr": "Biyologlar, mikroskobik bir organizmanın genetik kodunu incelemek için hesaplamalı araçlar kullanırlar.",
+      "status": null
+    },
+    {
+      "en": "Pollution",
+      "tr": "Kirlilik",
+      "sentence": "Smart city IoT sensors monitor urban air pollution levels continuously.",
+      "sentence_tr": "Akıllı şehir IoT sensörleri, kentsel hava kirliliği seviyelerini sürekli olarak izler.",
+      "status": null
+    },
+    {
+      "en": "Species",
+      "tr": "Tür",
+      "sentence": "The image classification tool can identify thousands of plant species from a single photograph.",
+      "sentence_tr": "Görüntü sınıflandırma aracı, tek bir fotoğraftan binlerce bitki türünü tanımlayabilir.",
+      "status": null
+    },
+    {
+      "en": "Substance",
+      "tr": "Madde",
+      "sentence": "The chemical substance was analyzed rapidly using an automated robotic system.",
+      "sentence_tr": "Kimyasal madde, otomatik bir robotik sistem kullanılarak hızla analiz edildi.",
+      "status": null
+    },
+    {
+      "en": "Surgery",
+      "tr": "Ameliyat",
+      "sentence": "Robotic systems are increasingly assisting doctors during high-precision surgery.",
+      "sentence_tr": "Robotik sistemler, yüksek hassasiyetli ameliyatlar sırasında doktorlara giderek daha fazla yardımcı oluyor.",
+      "status": null
+    },
+    {
+      "en": "Vaccine",
+      "tr": "Aşı",
+      "sentence": "Predictive data analysis helps researchers evaluate the long-term efficacy of the new vaccine.",
+      "sentence_tr": "Tahmine dayalı veri analizi, araştırmacıların yeni aşının uzun vadeli etkinliğini değerlendirmesine yardımcı olur.",
+      "status": null
+    },
+    {
+      "en": "Wildlife",
+      "tr": "Yaban hayatı",
+      "sentence": "Camera traps equipped with computer vision continuously monitor wildlife populations.",
+      "sentence_tr": "Bilgisayarlı görü ile donatılmış kamera tuzakları yaban hayatı popülasyonlarını sürekli olarak izler.",
+      "status": null
+    }
+  ],
+  "5": [
+    {
+      "en": "Acknowledge",
+      "tr": "Kabul etmek",
+      "sentence": "The development team must acknowledge the limitations of the current algorithm.",
+      "sentence_tr": "Geliştirme ekibi, mevcut algoritmanın sınırlamalarını kabul etmelidir.",
+      "status": null
+    },
+    {
+      "en": "Advocate",
+      "tr": "Savunmak",
+      "sentence": "Many software engineers advocate for open-source development and collaboration.",
+      "sentence_tr": "Birçok yazılım mühendisi açık kaynak geliştirmeyi ve iş birliğini savunur.",
+      "status": null
+    },
+    {
+      "en": "Alleviate",
+      "tr": "Hafifletmek",
+      "sentence": "Proper switch configuration can significantly alleviate traffic congestion on the network.",
+      "sentence_tr": "Uygun ağ anahtarı yapılandırması, ağdaki trafik sıkışıklığını önemli ölçüde hafifletebilir.",
+      "status": null
+    },
+    {
+      "en": "Assert",
+      "tr": "İleri sürmek",
+      "sentence": "The researchers assert that their new ensemble model outperforms all existing methods.",
+      "sentence_tr": "Araştırmacılar, yeni topluluk modellerinin mevcut tüm yöntemlerden daha iyi performans gösterdiğini ileri sürüyor.",
+      "status": null
+    },
+    {
+      "en": "Challenge",
+      "tr": "Meydan okumak",
+      "sentence": "Dealing with highly imbalanced datasets remains a major challenge in predictive modeling.",
+      "sentence_tr": "Son derece dengesiz veri setleriyle başa çıkmak, tahmine dayalı modellemede büyük bir zorluk olmaya devam ediyor.",
+      "status": null
+    },
+    {
+      "en": "Compensate",
+      "tr": "Telafi etmek",
+      "sentence": "Stacking models can compensate for the individual weaknesses of base algorithms.",
+      "sentence_tr": "Yığınlama modelleri, temel algoritmaların bireysel zayıflıklarını telafi edebilir.",
+      "status": null
+    },
+    {
+      "en": "Contradict",
+      "tr": "Çelişmek",
+      "sentence": "The recent output logs contradict the previously established operational theory.",
+      "sentence_tr": "Son çıktı günlükleri, daha önce kurulan operasyonel teoriyle çelişiyor.",
+      "status": null
+    },
+    {
+      "en": "Demonstrate",
+      "tr": "Göstermek/Kanıtlamak",
+      "sentence": "The project documentation will clearly demonstrate the feasibility of the proposed system.",
+      "sentence_tr": "Proje dokümantasyonu, önerilen sistemin fizibilitesini açıkça gösterecektir.",
+      "status": null
+    },
+    {
+      "en": "Deprive",
+      "tr": "Mahrum bırakmak",
+      "sentence": "A poorly configured firewall can deprive legitimate users of essential network access.",
+      "sentence_tr": "Kötü yapılandırılmış bir güvenlik duvarı, meşru kullanıcıları temel ağ erişiminden mahrum bırakabilir.",
+      "status": null
+    },
+    {
+      "en": "Deteriorate",
+      "tr": "Kötüleşmek",
+      "sentence": "The hardware performance began to deteriorate rapidly due to inadequate cooling.",
+      "sentence_tr": "Donanım performansı, yetersiz soğutma nedeniyle hızla kötüleşmeye başladı.",
+      "status": null
+    },
+    {
+      "en": "Distort",
+      "tr": "Çarpıtmak",
+      "sentence": "Unprocessed missing values in the dataset can severely distort the final predictions.",
+      "sentence_tr": "Veri setindeki işlenmemiş eksik değerler, nihai tahminleri ciddi şekilde çarpıtabilir.",
+      "status": null
+    },
+    {
+      "en": "Emphasize",
+      "tr": "Vurgulamak",
+      "sentence": "The instructor emphasized the importance of writing clean, modular Python code.",
+      "sentence_tr": "Eğitmen, temiz ve modüler Python kodu yazmanın önemini vurguladı.",
+      "status": null
+    },
+    {
+      "en": "Encounter",
+      "tr": "Karşılaşmak",
+      "sentence": "You might encounter several syntax and indentation errors while debugging the script.",
+      "sentence_tr": "Betiği hata ayıklarken birkaç sözdizimi ve girinti hatasıyla karşılaşabilirsiniz.",
+      "status": null
+    },
+    {
+      "en": "Enhance",
+      "tr": "Geliştirmek",
+      "sentence": "XGBoost was explicitly implemented to enhance the overall accuracy of the classification model.",
+      "sentence_tr": "XGBoost, sınıflandırma modelinin genel doğruluğunu geliştirmek için açıkça uygulandı.",
+      "status": null
+    },
+    {
+      "en": "Ensure",
+      "tr": "Garantiye almak",
+      "sentence": "Port security mechanisms ensure that only authorized MAC addresses can connect to the switch.",
+      "sentence_tr": "Port güvenlik mekanizmaları, yalnızca yetkili MAC adreslerinin ağ anahtarına bağlanabilmesini garantiye alır.",
+      "status": null
+    },
+    {
+      "en": "Exaggerate",
+      "tr": "Abartmak",
+      "sentence": "It is scientifically crucial not to exaggerate the autonomous capabilities of current AI systems.",
+      "sentence_tr": "Mevcut yapay zeka sistemlerinin otonom yeteneklerini abartmamak bilimsel açıdan çok önemlidir.",
+      "status": null
+    },
+    {
+      "en": "Exclude",
+      "tr": "Dışlamak",
+      "sentence": "The statistical outliers were systematically excluded from the dataset before training.",
+      "sentence_tr": "İstatistiksel aykırı değerler, eğitimden önce sistemli bir şekilde veri setinden dışlandı.",
+      "status": null
+    },
+    {
+      "en": "Flourish",
+      "tr": "Gelişmek/Serpilmek",
+      "sentence": "The technology startup ecosystem continues to flourish despite global economic challenges.",
+      "sentence_tr": "Teknoloji girişimi ekosistemi, küresel ekonomik zorluklara rağmen gelişmeye devam ediyor.",
+      "status": null
+    },
+    {
+      "en": "Imply",
+      "tr": "İma etmek",
+      "sentence": "The specific error code implies that there is a critical timeout with the database connection.",
+      "sentence_tr": "Belirli hata kodu, veritabanı bağlantısında kritik bir zaman aşımı olduğunu ima ediyor.",
+      "status": null
+    },
+    {
+      "en": "Inhibit",
+      "tr": "Engellemek",
+      "sentence": "A lack of sufficient GPU memory can severely inhibit the training process of neural networks.",
+      "sentence_tr": "Yeterli GPU belleğinin olmaması, sinir ağlarının eğitim sürecini ciddi şekilde engelleyebilir.",
+      "status": null
+    },
+    {
+      "en": "Initiate",
+      "tr": "Başlatmak",
+      "sentence": "The automated system will seamlessly initiate a full data backup process at midnight.",
+      "sentence_tr": "Otomatik sistem, gece yarısı tam bir veri yedekleme sürecini sorunsuz bir şekilde başlatacaktır.",
+      "status": null
+    },
+    {
+      "en": "Maintain",
+      "tr": "Sürdürmek",
+      "sentence": "It is absolutely crucial to maintain regular software updates to prevent security breaches.",
+      "sentence_tr": "Güvenlik ihlallerini önlemek için düzenli yazılım güncellemelerini sürdürmek kesinlikle çok önemlidir.",
+      "status": null
+    },
+    {
+      "en": "Neglect",
+      "tr": "İhmal etmek",
+      "sentence": "Developers should never neglect the fundamental importance of comprehensive documentation.",
+      "sentence_tr": "Geliştiriciler, kapsamlı dokümantasyonun temel önemini asla ihmal etmemelidir.",
+      "status": null
+    },
+    {
+      "en": "Obscure",
+      "tr": "Gizlemek/Bulanıklaştırmak",
+      "sentence": "Excessively complex mathematical formulas can sometimes obscure the underlying logic of the code.",
+      "sentence_tr": "Aşırı karmaşık matematiksel formüller bazen kodun altında yatan mantığı gizleyebilir.",
+      "status": null
+    },
+    {
+      "en": "Overcome",
+      "tr": "Üstesinden gelmek",
+      "sentence": "The engineering team managed to overcome multiple technical bottlenecks during the project.",
+      "sentence_tr": "Mühendislik ekibi, proje sırasındaki çok sayıda teknik darboğazın üstesinden gelmeyi başardı.",
+      "status": null
+    },
+    {
+      "en": "Perceive",
+      "tr": "Algılamak",
+      "sentence": "Humans and computer vision models perceive raw image data in fundamentally different ways.",
+      "sentence_tr": "İnsanlar ve bilgisayarlı görü modelleri ham görüntü verilerini temelde farklı şekillerde algılarlar.",
+      "status": null
+    },
+    {
+      "en": "Predict",
+      "tr": "Tahmin etmek",
+      "sentence": "The primary objective of the machine learning model is to accurately predict patient outcomes.",
+      "sentence_tr": "Makine öğrenmesi modelinin birincil amacı, hasta sonuçlarını doğru bir şekilde tahmin etmektir.",
+      "status": null
+    },
+    {
+      "en": "Pursue",
+      "tr": "Peşinden koşmak",
+      "sentence": "She decided to aggressively pursue a career focused entirely on data science and analytics.",
+      "sentence_tr": "Tamamen veri bilimi ve analitiğine odaklanan bir kariyerin peşinden koşmaya karar verdi.",
+      "status": null
+    },
+    {
+      "en": "Reinforce",
+      "tr": "Güçlendirmek",
+      "sentence": "The positive test results reinforce the core hypothesis presented in the academic paper.",
+      "sentence_tr": "Olumlu test sonuçları, akademik makalede sunulan temel hipotezi güçlendiriyor.",
+      "status": null
+    },
+    {
+      "en": "Sustain",
+      "tr": "Sürdürmek",
+      "sentence": "An efficient cooling architecture is strictly necessary to sustain the optimal performance of data centers.",
+      "sentence_tr": "Veri merkezlerinin optimum performansını sürdürmek için verimli bir soğutma mimarisi kesinlikle gereklidir.",
+      "status": null
+    }
+  ],
+  "6": [
+    {
+      "en": "Bring about",
+      "tr": "Sebep olmak",
+      "sentence": "The implementation of AI in healthcare can bring about significant improvements in patient diagnosis.",
+      "sentence_tr": "Sağlık hizmetlerinde yapay zekanın uygulanması, hasta teşhisinde önemli iyileştirmelere sebep olabilir.",
+      "status": null
+    },
+    {
+      "en": "Carry out",
+      "tr": "Yürütmek/Yapmak",
+      "sentence": "The engineering team needs to carry out extensive testing before submitting the TÜBİTAK 2209-A project report.",
+      "sentence_tr": "Mühendislik ekibinin TÜBİTAK 2209-A proje raporunu sunmadan önce kapsamlı testler yürütmesi gerekiyor.",
+      "status": null
+    },
+    {
+      "en": "Come up with",
+      "tr": "Fikir üretmek",
+      "sentence": "As the team captain, he had to come up with an innovative solution for the technology competition.",
+      "sentence_tr": "Takım kaptanı olarak teknoloji yarışması için yenilikçi bir çözüm fikri üretmesi gerekiyordu.",
+      "status": null
+    },
+    {
+      "en": "Cut down on",
+      "tr": "Azaltmak",
+      "sentence": "Optimizing the Python script helped to cut down on the overall processing time.",
+      "sentence_tr": "Python betiğini optimize etmek, genel işlem süresini azaltmaya yardımcı oldu.",
+      "status": null
+    },
+    {
+      "en": "Deal with",
+      "tr": "Başa çıkmak",
+      "sentence": "Network administrators frequently deal with port security issues and unauthorized access attempts.",
+      "sentence_tr": "Ağ yöneticileri sıklıkla port güvenliği sorunları ve yetkisiz erişim girişimleriyle başa çıkarlar.",
+      "status": null
+    },
+    {
+      "en": "End up",
+      "tr": "Sonuçlanmak",
+      "sentence": "Without proper regularization, the machine learning model might end up overfitting the training data.",
+      "sentence_tr": "Uygun düzenlileştirme olmadan, makine öğrenmesi modeli eğitim verilerine aşırı uyum sağlamakla sonuçlanabilir.",
+      "status": null
+    },
+    {
+      "en": "Figure out",
+      "tr": "Anlamak/Çözmek",
+      "sentence": "It took hours to figure out why the Cisco switch was dropping data packets.",
+      "sentence_tr": "Cisco switch'in veri paketlerini neden düşürdüğünü anlamak saatler sürdü.",
+      "status": null
+    },
+    {
+      "en": "Find out",
+      "tr": "Öğrenmek",
+      "sentence": "The researchers analyzed the dataset to find out the correlation between the variables.",
+      "sentence_tr": "Araştırmacılar değişkenler arasındaki korelasyonu öğrenmek için veri setini analiz ettiler.",
+      "status": null
+    },
+    {
+      "en": "Get rid of",
+      "tr": "Kurtulmak",
+      "sentence": "We need to get rid of redundant code blocks to make the software more efficient.",
+      "sentence_tr": "Yazılımı daha verimli hale getirmek için gereksiz kod bloklarından kurtulmalıyız.",
+      "status": null
+    },
+    {
+      "en": "Give up",
+      "tr": "Bırakmak/Pes etmek",
+      "sentence": "Even when the stacking ensemble model failed initially, the researchers didn't give up.",
+      "sentence_tr": "Yığınlama topluluk modeli başlangıçta başarısız olduğunda bile araştırmacılar pes etmedi.",
+      "status": null
+    },
+    {
+      "en": "Go through",
+      "tr": "Deneyimlemek/İncelemek",
+      "sentence": "The project proposal must go through a rigorous review process by the academic advisor.",
+      "sentence_tr": "Proje teklifi, akademik danışman tarafından titiz bir inceleme sürecinden geçmelidir.",
+      "status": null
+    },
+    {
+      "en": "Keep up with",
+      "tr": "Hızına yetişmek",
+      "sentence": "It is essential for computer engineers to keep up with the latest advancements in artificial intelligence.",
+      "sentence_tr": "Bilgisayar mühendislerinin yapay zekadaki en son gelişmelere yetişmesi esastır.",
+      "status": null
+    },
+    {
+      "en": "Look forward to",
+      "tr": "Dört gözle beklemek",
+      "sentence": "The students in Zonguldak look forward to the upcoming technology and engineering festival.",
+      "sentence_tr": "Zonguldak'taki öğrenciler yaklaşan teknoloji ve mühendislik festivalini dört gözle bekliyorlar.",
+      "status": null
+    },
+    {
+      "en": "Look into",
+      "tr": "İncelemek",
+      "sentence": "The Head of the Computer Engineering Department will look into the new curriculum proposals.",
+      "sentence_tr": "Bilgisayar Mühendisliği Bölüm Başkanı yeni müfredat tekliflerini inceleyecek.",
+      "status": null
+    },
+    {
+      "en": "Make up",
+      "tr": "Oluşturmak/Uydurmak",
+      "sentence": "High-quality datasets make up the foundation of any successful predictive algorithm.",
+      "sentence_tr": "Yüksek kaliteli veri setleri, herhangi bir başarılı tahmine dayalı algoritmanın temelini oluşturur.",
+      "status": null
+    },
+    {
+      "en": "Point out",
+      "tr": "İşaret etmek",
+      "sentence": "The mentor pointed out several critical flaws in the initial system architecture.",
+      "sentence_tr": "Danışman, ilk sistem mimarisindeki birkaç kritik kusura işaret etti.",
+      "status": null
+    },
+    {
+      "en": "Put off",
+      "tr": "Ertelemek",
+      "sentence": "The team cannot put off the server software update any longer due to security vulnerabilities.",
+      "sentence_tr": "Ekip, güvenlik açıkları nedeniyle sunucu yazılımı güncellemesini daha fazla erteleyemez.",
+      "status": null
+    },
+    {
+      "en": "Put up with",
+      "tr": "Katlanmak",
+      "sentence": "Developers often have to put up with legacy code that is extremely difficult to maintain.",
+      "sentence_tr": "Geliştiriciler genellikle bakımı son derece zor olan eski kodlara katlanmak zorundadır.",
+      "status": null
+    },
+    {
+      "en": "Run out of",
+      "tr": "Tüketmek",
+      "sentence": "The graphics processing unit ran out of memory while training the deep neural network.",
+      "sentence_tr": "Derin sinir ağını eğitirken grafik işlem biriminin belleği tükendi.",
+      "status": null
+    },
+    {
+      "en": "Set up",
+      "tr": "Kurmak",
+      "sentence": "It took the technician only a few minutes to set up and configure the new network router.",
+      "sentence_tr": "Teknisyenin yeni ağ yönlendiricisini kurması ve yapılandırması sadece birkaç dakika sürdü.",
+      "status": null
+    },
+    {
+      "en": "Take after",
+      "tr": "Benzemek",
+      "sentence": "The new algorithm takes after its predecessor but includes several key logic optimizations.",
+      "sentence_tr": "Yeni algoritma öncülüne benziyor ancak birkaç önemli mantık optimizasyonu içeriyor.",
+      "status": null
+    },
+    {
+      "en": "Take care of",
+      "tr": "İlgilenmek",
+      "sentence": "The automated script will successfully take care of the daily database backups.",
+      "sentence_tr": "Otomatik betik günlük veritabanı yedeklemeleriyle başarılı bir şekilde ilgilenecektir.",
+      "status": null
+    },
+    {
+      "en": "Take off",
+      "tr": "Havalanmak/Çıkarmak",
+      "sentence": "The global demand for AI-based diagnostic tools is expected to take off in the next few years.",
+      "sentence_tr": "Yapay zeka tabanlı teşhis araçlarına olan küresel talebin önümüzdeki birkaç yıl içinde hızla artması bekleniyor.",
+      "status": null
+    },
+    {
+      "en": "Take over",
+      "tr": "Devralmak",
+      "sentence": "Automated systems will gradually take over repetitive administrative and operational tasks.",
+      "sentence_tr": "Otomatik sistemler tekrarlayan idari ve operasyonel görevleri kademeli olarak devralacak.",
+      "status": null
+    },
+    {
+      "en": "Turn down",
+      "tr": "Reddetmek",
+      "sentence": "The server is explicitly configured to turn down any connection request from an unrecognized IP address.",
+      "sentence_tr": "Sunucu, tanınmayan bir IP adresinden gelen herhangi bir bağlantı isteğini reddetmek üzere açıkça yapılandırılmıştır.",
+      "status": null
+    },
+    {
+      "en": "Turn into",
+      "tr": "Dönüşmek",
+      "sentence": "With the right visual descriptions, a simple story can turn into an engaging animated video.",
+      "sentence_tr": "Doğru görsel açıklamalarla basit bir hikaye ilgi çekici animasyonlu bir videoya dönüşebilir.",
+      "status": null
+    },
+    {
+      "en": "Wake up",
+      "tr": "Uyanmak",
+      "sentence": "Sometimes, a critical system crash can wake up the on-call engineer in the middle of the night.",
+      "sentence_tr": "Bazen kritik bir sistem çökmesi, nöbetçi mühendisi gecenin bir yarısı uyandırabilir.",
+      "status": null
+    },
+    {
+      "en": "Wear out",
+      "tr": "Eskitmek/Yormak",
+      "sentence": "Continuous read and write operations can eventually wear out standard solid-state drives.",
+      "sentence_tr": "Sürekli okuma ve yazma işlemleri standart katı hal sürücülerini sonunda eskitebilir.",
+      "status": null
+    },
+    {
+      "en": "Work out",
+      "tr": "Çözmek/Egzersiz yapmak",
+      "sentence": "The developers managed to work out a scalable solution for the complex API integration problem.",
+      "sentence_tr": "Geliştiriciler karmaşık API entegrasyonu sorunu için ölçeklenebilir bir çözüm bulmayı başardılar.",
+      "status": null
+    },
+    {
+      "en": "Write down",
+      "tr": "Not almak",
+      "sentence": "It is highly recommended to write down the exact commands used during the switch configuration.",
+      "sentence_tr": "Switch yapılandırması sırasında kullanılan kesin komutları not almak şiddetle tavsiye edilir.",
+      "status": null
+    }
+  ],
+  "7": [
+    {
+      "en": "Abruptly",
+      "tr": "Aniden",
+      "sentence": "The server connection dropped abruptly due to a sudden and unexpected power failure.",
+      "sentence_tr": "Ani ve beklenmedik bir elektrik kesintisi nedeniyle sunucu bağlantısı aniden koptu.",
+      "status": null
+    },
+    {
+      "en": "Adequately",
+      "tr": "Yeterince",
+      "sentence": "The predictive model must be adequately trained before being deployed in a critical healthcare setting.",
+      "sentence_tr": "Tahmine dayalı model, kritik bir sağlık ortamında dağıtılmadan önce yeterince eğitilmelidir.",
+      "status": null
+    },
+    {
+      "en": "Barely",
+      "tr": "Zar zor",
+      "sentence": "The old computer hardware could barely run the heavy data science libraries.",
+      "sentence_tr": "Eski bilgisayar donanımı ağır veri bilimi kütüphanelerini zar zor çalıştırabiliyordu.",
+      "status": null
+    },
+    {
+      "en": "Chiefly",
+      "tr": "Başlıca",
+      "sentence": "The network delay was chiefly caused by a misconfiguration in the primary distribution switch.",
+      "sentence_tr": "Ağ gecikmesi başlıca birincil dağıtım anahtarındaki bir yanlış yapılandırmadan kaynaklanıyordu.",
+      "status": null
+    },
+    {
+      "en": "Comparatively",
+      "tr": "Nispeten",
+      "sentence": "XGBoost is comparatively faster and more efficient than many traditional gradient boosting frameworks.",
+      "sentence_tr": "XGBoost, birçok geleneksel gradyan artırma çerçevesinden nispeten daha hızlı ve daha verimlidir.",
+      "status": null
+    },
+    {
+      "en": "Consequently",
+      "tr": "Sonuç olarak",
+      "sentence": "The code had syntax errors; consequently, the application failed to compile.",
+      "sentence_tr": "Kodda sözdizimi hataları vardı; sonuç olarak uygulama derlenemedi.",
+      "status": null
+    },
+    {
+      "en": "Considerably",
+      "tr": "Epeyce",
+      "sentence": "Using a dedicated GPU speeds up the matrix multiplication process considerably.",
+      "sentence_tr": "Özel bir GPU kullanmak, matris çarpım sürecini epeyce hızlandırır.",
+      "status": null
+    },
+    {
+      "en": "Effectively",
+      "tr": "Etkili bir şekilde",
+      "sentence": "Python is effectively used for rapid prototyping and testing in modern software engineering.",
+      "sentence_tr": "Python, modern yazılım mühendisliğinde hızlı prototipleme ve test etme için etkili bir şekilde kullanılır.",
+      "status": null
+    },
+    {
+      "en": "Entirely",
+      "tr": "Tamamen",
+      "sentence": "The success of the diagnostic tool relies entirely on the quality and accuracy of the medical data.",
+      "sentence_tr": "Teşhis aracının başarısı tamamen tıbbi verilerin kalitesine ve doğruluğuna bağlıdır.",
+      "status": null
+    },
+    {
+      "en": "Eventually",
+      "tr": "Sonunda",
+      "sentence": "The engineering team eventually succeeded in creating a highly accurate AI module called TanıAI.",
+      "sentence_tr": "Mühendislik ekibi sonunda TanıAI adında oldukça isabetli bir yapay zeka modülü oluşturmayı başardı.",
+      "status": null
+    },
+    {
+      "en": "Excessively",
+      "tr": "Aşırı derecede",
+      "sentence": "The classification algorithm was excessively complex, making it incredibly difficult to debug.",
+      "sentence_tr": "Sınıflandırma algoritması aşırı derecede karmaşıktı, bu da hata ayıklamayı inanılmaz derecede zorlaştırıyordu.",
+      "status": null
+    },
+    {
+      "en": "Frequently",
+      "tr": "Sık sık",
+      "sentence": "Programmers frequently utilize Git and version control systems to manage continuous code changes.",
+      "sentence_tr": "Programcılar, sürekli kod değişikliklerini yönetmek için sık sık Git ve sürüm kontrol sistemlerini kullanırlar.",
+      "status": null
+    },
+    {
+      "en": "Gradually",
+      "tr": "Kademeli olarak",
+      "sentence": "The loss metric gradually decreased as the neural network learned from the provided data.",
+      "sentence_tr": "Sinir ağı sağlanan verilerden öğrendikçe kayıp metriği kademeli olarak azaldı.",
+      "status": null
+    },
+    {
+      "en": "Hardly",
+      "tr": "Neredeyse hiç",
+      "sentence": "There is hardly any measurable difference in performance between the two classification methods.",
+      "sentence_tr": "İki sınıflandırma yöntemi arasında performansta neredeyse hiç ölçülebilir fark yoktur.",
+      "status": null
+    },
+    {
+      "en": "Inevitably",
+      "tr": "Kaçınılmaz olarak",
+      "sentence": "As datasets grow larger, the need for scalable cloud architecture inevitably increases.",
+      "sentence_tr": "Veri setleri büyüdükçe, ölçeklenebilir bulut mimarisine olan ihtiyaç kaçınılmaz olarak artar.",
+      "status": null
+    },
+    {
+      "en": "Initially",
+      "tr": "Başlangıçta",
+      "sentence": "Initially, the script was written in C++, but it was later rewritten in Python for simplicity.",
+      "sentence_tr": "Başlangıçta betik C++ ile yazılmıştı, ancak daha sonra basitlik için Python'da yeniden yazıldı.",
+      "status": null
+    },
+    {
+      "en": "Mutually",
+      "tr": "Karşılıklı olarak",
+      "sentence": "The two legacy network protocols are mutually incompatible and cannot operate on the same port.",
+      "sentence_tr": "İki eski ağ protokolü karşılıklı olarak uyumsuzdur ve aynı portta çalışamaz.",
+      "status": null
+    },
+    {
+      "en": "Particularly",
+      "tr": "Özellikle",
+      "sentence": "Solving past exam questions is particularly useful when preparing for standardized tests like KPSS Ortaöğretim.",
+      "sentence_tr": "Geçmiş sınav sorularını çözmek, KPSS Ortaöğretim gibi standart testlere hazırlanırken özellikle yararlıdır.",
+      "status": null
+    },
+    {
+      "en": "Precisely",
+      "tr": "Tam olarak",
+      "sentence": "The robotic arm is carefully designed to perform micro-surgical operations precisely.",
+      "sentence_tr": "Robotik kol, mikro-cerrahi operasyonları tam olarak gerçekleştirmek üzere dikkatlice tasarlanmıştır.",
+      "status": null
+    },
+    {
+      "en": "Previously",
+      "tr": "Önceden",
+      "sentence": "The port was previously disabled due to a strict security violation triggered by an unknown MAC address.",
+      "sentence_tr": "Port, bilinmeyen bir MAC adresi tarafından tetiklenen katı bir güvenlik ihlali nedeniyle önceden devre dışı bırakılmıştı.",
+      "status": null
+    },
+    {
+      "en": "Primarily",
+      "tr": "Öncelikle",
+      "sentence": "The computer engineering curriculum at Siirt University is primarily focused on modern software development practices.",
+      "sentence_tr": "Siirt Üniversitesi'ndeki bilgisayar mühendisliği müfredatı öncelikle modern yazılım geliştirme uygulamalarına odaklanmaktadır.",
+      "status": null
+    },
+    {
+      "en": "Relatively",
+      "tr": "Nispeten",
+      "sentence": "Setting up a basic SQLite database is relatively easy compared to configuring a distributed cloud cluster.",
+      "sentence_tr": "Temel bir SQLite veritabanı kurmak, dağıtılmış bir bulut kümesi yapılandırmaya kıyasla nispeten kolaydır.",
+      "status": null
+    },
+    {
+      "en": "Scarcely",
+      "tr": "Neredeyse hiç",
+      "sentence": "They had scarcely finished debugging the critical system error when the strict deadline arrived.",
+      "sentence_tr": "Kesin teslim tarihi geldiğinde kritik sistem hatasını ayıklamayı neredeyse hiç bitirememişlerdi.",
+      "status": null
+    },
+    {
+      "en": "Significantly",
+      "tr": "Önemli ölçüde",
+      "sentence": "Applying the new algorithm significantly improved the model's overall predictive accuracy.",
+      "sentence_tr": "Yeni algoritmayı uygulamak, modelin genel tahmine dayalı doğruluğunu önemli ölçüde iyileştirdi.",
+      "status": null
+    },
+    {
+      "en": "Simultaneously",
+      "tr": "Eş zamanlı",
+      "sentence": "The multi-threaded Python program is capable of processing several large text files simultaneously.",
+      "sentence_tr": "Çok iş parçacıklı Python programı, birkaç büyük metin dosyasını eş zamanlı olarak işleme yeteneğine sahiptir.",
+      "status": null
+    },
+    {
+      "en": "Solely",
+      "tr": "Yalnızca",
+      "sentence": "The final decision should not be based solely on the accuracy metric; precision and recall are also important.",
+      "sentence_tr": "Nihai karar yalnızca doğruluk metriğine dayanmamalıdır; kesinlik ve duyarlılık da önemlidir.",
+      "status": null
+    },
+    {
+      "en": "Subsequently",
+      "tr": "Sonradan",
+      "sentence": "The critical logic error was detected during beta testing and subsequently fixed by the team.",
+      "sentence_tr": "Kritik mantık hatası beta testi sırasında tespit edildi ve sonradan ekip tarafından düzeltildi.",
+      "status": null
+    },
+    {
+      "en": "Thoroughly",
+      "tr": "İyice/Tamamen",
+      "sentence": "Doç.Dr. Yahya Doğan advised the project team to thoroughly review their technical reports before submission.",
+      "sentence_tr": "Doç.Dr. Yahya Doğan, proje ekibine teknik raporlarını teslim etmeden önce iyice gözden geçirmelerini tavsiye etti.",
+      "status": null
+    },
+    {
+      "en": "Ultimately",
+      "tr": "Nihayetinde",
+      "sentence": "Ultimately, the primary goal is to develop an application that is both highly efficient and user-friendly.",
+      "sentence_tr": "Nihayetinde birincil hedef, hem son derece verimli hem de kullanıcı dostu bir uygulama geliştirmektir.",
+      "status": null
+    },
+    {
+      "en": "Virtually",
+      "tr": "Hemen hemen/Sanal olarak",
+      "sentence": "The new hardware virtualization software makes it virtually impossible for malware to escape the secure sandbox environment.",
+      "sentence_tr": "Yeni donanım sanallaştırma yazılımı, kötü amaçlı yazılımların güvenli korumalı alandan kaçmasını sanal olarak imkansız hale getirir.",
+      "status": null
+    }
+  ]
+}
