@@ -1,0 +1,112 @@
+{
+  "tenses": [
+    {
+      "baslik": "Simple Present Tense (Geniş Zaman)",
+      "kural": "Bilimsel gerçekler, genel doğrular ve sürekli tekrarlanan alışkanlıklar.",
+      "ipucu": "nowadays, currently, always, usually, generally, frequently, every...",
+      "ornek": "Water boils at 100 degrees Celsius under standard atmospheric pressure."
+    },
+    {
+      "baslik": "Present Continuous Tense (Şimdiki Zaman)",
+      "kural": "Şu an konuşma anında olan olaylar veya değişmekte olan güncel durumlar (trendler).",
+      "ipucu": "now, right now, at the moment, at present, increasingly, gradually...",
+      "ornek": "The global temperature is gradually increasing due to climate change."
+    },
+    {
+      "baslik": "Present Perfect Tense (Yakın Geçmiş)",
+      "kural": "Geçmişte olmuş ama etkisi/sonucu şu an devam eden veya zamanı belirsiz olaylar. YDS'nin favorisidir!",
+      "ipucu": "recently, lately, so far, up to now, over the last/past few years, since, for...",
+      "ornek": "Scientists have recently discovered a new species of frog in the Amazon."
+    },
+    {
+      "baslik": "Simple Past Tense (Di'li Geçmiş Zaman)",
+      "kural": "Geçmişte belirli bir zamanda başlamış ve kesin olarak bitmiş olaylar.",
+      "ipucu": "in 1990, ago, last year, previously, formerly, yesterday, in the past...",
+      "ornek": "The Industrial Revolution dramatically changed the economic structure of Europe."
+    },
+    {
+      "baslik": "Past Continuous Tense (Hikaye Geçmiş Zaman)",
+      "kural": "Geçmişte belirli bir sürece yayılmış olaylar veya geçmişte başka bir olay tarafından bölünen eylemler.",
+      "ipucu": "while, as, just as, when (Genellikle Simple Past ile birlikte kullanılır).",
+      "ornek": "While the researchers were conducting the experiment, the power went out."
+    },
+    {
+      "baslik": "Past Perfect Tense (Miş'li Geçmiş Zaman)",
+      "kural": "Geçmişteki iki olaydan 'daha önce' olanı vurgulamak için kullanılır. (Geçmişin geçmişi).",
+      "ipucu": "by the time, before, after, prior to, by 2000...",
+      "ornek": "By the time the ambulance arrived, the patient had already lost a lot of blood."
+    },
+    {
+      "baslik": "Future Simple (Gelecek Zaman)",
+      "kural": "Gelecekle ilgili tahminler, anlık kararlar veya kesin olmayan beklentiler.",
+      "ipucu": "in the future, next year, soon, probably, expect, predict, hope...",
+      "ornek": "Artificial intelligence will probably replace many repetitive jobs in the future."
+    },
+    {
+      "baslik": "Future Perfect Tense (Gelecekte Bitiş)",
+      "kural": "Gelecekte belirli bir tarihten veya olaydan 'önce tamamlanmış olacak' eylemler.",
+      "ipucu": "by 2050, by next year, by the end of this century...",
+      "ornek": "By the year 2050, the world population will have reached 9.7 billion."
+    }
+  ],
+  "baglac_taktikleri": [
+    {
+      "baslik": "Zıtlık Bağlaçları: Cümle vs İsim",
+      "kural": "Although, even though, though arkasından tam cümle (Özne+Yüklem) alır. Despite ve in spite of ise arkasından sadece isim (Noun) veya Ving alır.",
+      "ipucu": "Boşluktan hemen sonrasına bak. Tam cümle mi var yoksa isim öbeği mi?",
+      "ornek": "Although it rained heavily (Cümle)... / Despite the heavy rain (İsim)..."
+    },
+    {
+      "baslik": "Sebep-Sonuç ve Paralellik (+ / +)",
+      "kural": "Because, since, as, seeing that bağlaçları sebep bildirir. Bu bağlaçların bağladığı iki cümlenin hissiyatı aynı olmalıdır (İkisi de olumlu veya ikisi de olumsuz).",
+      "ipucu": "Boşluğun iki tarafını (+) ve (-) olarak işaretle. İşaretler aynıysa sebep-sonuç ara.",
+      "ornek": "Since the company lost a lot of money (-), it had to fire some employees (-)."
+    },
+    {
+      "baslik": "Therefore / Thus / Hence (Bu yüzden)",
+      "kural": "Kendinden önce bir sebep, kendinden sonra bir sonuç cümlesi alırlar. Genellikle noktalama işaretleriyle (Nokta veya noktalı virgülden sonra) kullanılırlar.",
+      "ipucu": "Metinde bir problem anlatılıp ardından bir çözüm/sonuç geliyorsa bu bağlaçlara yönel.",
+      "ornek": "The demand for electric cars is rising; therefore, battery production must increase."
+    }
+  ],
+  "prep_taktikleri": [
+    {
+      "baslik": "Zaman Prepleri ve Tense Uyumu",
+      "kural": "Eğer boşluktan sonra 'the last/past + zaman' ifadesi geliyorsa (the last 10 years gibi), buraya in/over/during/for gelmelidir ve cümlenin Tense'i %90 Present Perfect olur.",
+      "ipucu": "Şıklarda 'over / in / during / for' + 'the last/past' kalıbını birlikte ara.",
+      "ornek": "Technology has developed rapidly over the past few decades."
+    },
+    {
+      "baslik": "'By' Edatı: Zaman vs. Pasif",
+      "kural": "By + zaman ifadesi (-e kadar) anlamı katar ve Perfect tense'leri çeker. By + kişi/nesne ise o cümlenin Pasif (Edilgen) olduğunun en büyük kanıtıdır.",
+      "ipucu": "By 2050 (Future Perfect), By 1990 (Past Perfect), By researchers (Pasif Cümle).",
+      "ornek": "The new planet was discovered by an independent team of scientists."
+    },
+    {
+      "baslik": "Soyut Kavramlarda 'In'",
+      "kural": "Bir şeyin içinde fiziksel olarak bulunmanın yanı sıra; artış/azalış (increase in, decrease in), ilgi (interest in), başarı (succeed in) gibi soyut durumlarda 'in' kullanılır.",
+      "ipucu": "Rise, drop, fall, increase kelimelerini görünce arkasından 'in' edatını ara.",
+      "ornek": "There has been a significant increase in the number of smartphone users."
+    }
+  ],
+  "paragraf_taktikleri": [
+    {
+      "baslik": "Soru Kökünü Önce Okuma Kuralı",
+      "kural": "Paragrafı okumaya metinden değil, SORULARDAN başla. Beyin ne aradığını bilirse, uzun metinde o bilgiyi çok daha hızlı cımbızlar.",
+      "ipucu": "Soru kökündeki özel isimlerin, tarihlerin veya 'NOT/EXCEPT' gibi vurgulu kelimelerin altını çiz.",
+      "ornek": "Önce oku: 'According to the passage, what happened in 1998?' -> Metne dön ve sadece 1998'i tara."
+    },
+    {
+      "baslik": "Keskin İfade (Absolutism) Tuzağı",
+      "kural": "Şıklarda 'always, never, completely, all, none, must' gibi çok keskin ve genelliyici kelimeler varsa, akademik metinler temkinli olduğu için o şık %95 yanlıştır.",
+      "ipucu": "İçinde 'may, can, some, often, likely, suggest' gibi esnek ve yumuşatıcı ifadeler barındıran şıklar genelde doğru cevaptır.",
+      "ornek": "Yanlış Şık: All scientists agree... / Doğru Şık: Many researchers suggest that..."
+    },
+    {
+      "baslik": "Zıtlık Bağlacı = Cevap Cümlesi",
+      "kural": "Paragrafta 'However, but, yet, despite this, unfortunately' gibi geçiş kelimeleri varsa, yazar asıl fikrini orada söylüyordur. Soruların cevapları %80 bu cümlelerde gizlidir.",
+      "ipucu": "Metni tararken zıtlık bağlaçlarını fosforlu kalemle çizilmiş gibi fark et ve o cümleyi iki kere oku.",
+      "ornek": "... Many thought the disease was eradicated. However, recent studies show a sudden increase in cases. (Soru buradan gelecek!)"
+    }
+  ]
+}
