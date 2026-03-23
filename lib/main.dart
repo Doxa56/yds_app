@@ -4,156 +4,229 @@ import 'package:flutter/services.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {
-  runApp(const YdsApp());
+  runApp(const YdsAsistanim());
 }
 
-class YdsApp extends StatelessWidget {
-  const YdsApp({super.key});
+class YdsAsistanim extends StatelessWidget {
+  const YdsAsistanim({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'YDS Kelime Asistanı',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue.shade900),
-        useMaterial3: true,
-      ),
-      home: const MainMenu(),
       debugShowCheckedModeBanner: false,
+      title: 'YDS & YÖKDİL Asistanı',
+      theme: ThemeData(primarySwatch: Colors.indigo),
+      home: const AnaEkran(),
     );
   }
 }
 
-class MainMenu extends StatefulWidget {
-  const MainMenu({super.key});
+class AnaEkran extends StatefulWidget {
+  const AnaEkran({Key? key}) : super(key: key);
 
   @override
-  State<MainMenu> createState() => _MainMenuState();
+  State<AnaEkran> createState() => _AnaEkranState();
 }
 
-class _MainMenuState extends State<MainMenu> {
-  Map<String, dynamic> allWords = {};
-  SharedPreferences? prefs;
-  bool isLoading = true;
+class _AnaEkranState extends State<AnaEkran> {
+  Map<String, dynamic> tumKelimeler = {};
+  bool yukleniyor = true;
 
   @override
   void initState() {
     super.initState();
-    initApp();
+    _verileriYukle();
   }
 
-  Future<void> initApp() async {
-    prefs = await SharedPreferences.getInstance();
-    try {
-      final String response = await rootBundle.loadString('assets/words.json');
-      final data = await json.decode(response);
-      setState(() {
-        allWords = data;
-        isLoading = false;
-      });
-    } catch (e) {
-      debugPrint("Hata: $e");
-    }
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    if (isLoading) return const Scaffold(body: Center(child: CircularProgressIndicator()));
-
-    return Scaffold(
-      appBar: AppBar(title: const Text("YDS Kelime Menü"), centerTitle: true),
-      body: ListView.builder(
-        padding: const EdgeInsets.all(16),
-        itemCount: 7,
-        itemBuilder: (context, index) {
-          String dayKey = (index + 1).toString();
-          if (!allWords.containsKey(dayKey)) return const SizedBox();
-          List words = allWords[dayKey];
-          int correct = 0, wrong = 0;
-
-          for (var w in words) {
-            String status = prefs?.getString('status_${dayKey}_${w['en']}') ?? 'none';
-            if (status == 'correct') correct++;
-            if (status == 'wrong') wrong++;
-          }
-
-          return Card(
-            margin: const EdgeInsets.only(bottom: 12),
-            child: ListTile(
-              title: Text("$dayKey. Gün Kelimeleri"),
-              subtitle: Text("Doğru: $correct | Yanlış: $wrong | Kalan: ${words.length - (correct + wrong)}"),
-              onTap: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context) => PracticeScreen(dayKey: dayKey, words: words, prefs: prefs!)))
-                .then((_) => setState(() {}));
-              },
-            ),
-          );
-        },
-      ),
-    );
-  }
-}
-
-class PracticeScreen extends StatefulWidget {
-  final String dayKey;
-  final List words;
-  final SharedPreferences prefs;
-  const PracticeScreen({super.key, required this.dayKey, required this.words, required this.prefs});
-
-  @override
-  State<PracticeScreen> createState() => _PracticeScreenState();
-}
-
-class _PracticeScreenState extends State<PracticeScreen> {
-  int index = 0;
-  final TextEditingController _ctrl = TextEditingController();
-  bool isChecked = false;
-  String feedback = "";
-
-  void check() {
-    String user = _ctrl.text.trim().toLowerCase();
-    String correct = widget.words[index]['tr'].toString().toLowerCase();
+  Future<void> _verileriYukle() async {
+    final String response = await rootBundle.loadString('assets/words.json');
+    final data = await json.decode(response);
     setState(() {
-      isChecked = true;
-      if (user.isNotEmpty && (user.contains(correct) || correct.contains(user))) {
-        feedback = "✅ Doğru!";
-        widget.prefs.setString('status_${widget.dayKey}_${widget.words[index]['en']}', 'correct');
-      } else {
-        feedback = "❌ Yanlış!";
-        widget.prefs.setString('status_${widget.dayKey}_${widget.words[index]['en']}', 'wrong');
-      }
+      tumKelimeler = data;
+      yukleniyor = false;
     });
   }
 
   @override
   Widget build(BuildContext context) {
-    var word = widget.words[index];
     return Scaffold(
-      appBar: AppBar(title: Text("${widget.dayKey}. Gün")),
+      appBar: AppBar(title: const Text('Çalışma Kategorileri')),
+      body: yukleniyor
+          ? const Center(child: CircularProgressIndicator())
+          : Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  _KategoriButonu("Genel Kelimeler", "kelimeler", Icons.list_alt),
+                  const SizedBox(height: 16),
+                  _KategoriButonu("Zarflar (Adverbs)", "adverbler", Icons.speed),
+                  const SizedBox(height: 16),
+                  _KategoriButonu("Bağlaçlar (Conjunctions)", "baglaclar", Icons.link),
+                  const SizedBox(height: 16),
+                  _KategoriButonu("Edatlar (Prepositions)", "prepler", Icons.place),
+                ],
+              ),
+            ),
+    );
+  }
+
+  Widget _KategoriButonu(String baslik, String jsonAnahtari, IconData ikon) {
+    return ElevatedButton.icon(
+      style: ElevatedButton.styleFrom(
+        padding: const EdgeInsets.symmetric(vertical: 20),
+        textStyle: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+      ),
+      icon: Icon(ikon, size: 28),
+      label: Text(baslik),
+      onPressed: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => CalismaEkrani(
+              kategoriAdi: baslik,
+              kategoriKey: jsonAnahtari,
+              kelimeListesi: tumKelimeler[jsonAnahtari],
+            ),
+          ),
+        );
+      },
+    );
+  }
+}
+
+class CalismaEkrani extends StatefulWidget {
+  final String kategoriAdi;
+  final String kategoriKey;
+  final List<dynamic> kelimeListesi;
+
+  const CalismaEkrani({
+    Key? key,
+    required this.kategoriAdi,
+    required this.kategoriKey,
+    required this.kelimeListesi,
+  }) : super(key: key);
+
+  @override
+  State<CalismaEkrani> createState() => _CalismaEkraniState();
+}
+
+class _CalismaEkraniState extends State<CalismaEkrani> {
+  int currentIndex = 0;
+  bool anlamiGoster = false;
+
+  @override
+  void initState() {
+    super.initState();
+    _kaldigimYeriYukle();
+  }
+
+  // Hafızadan o kategori için kalınan son indexi çeker
+  Future<void> _kaldigimYeriYukle() async {
+    final prefs = await SharedPreferences.getInstance();
+    setState(() {
+      currentIndex = prefs.getInt(widget.kategoriKey) ?? 0;
+    });
+  }
+
+  // Yeni kelimeye geçince indexi hafızaya kaydeder
+  Future<void> _sonrakiKelime() async {
+    if (currentIndex < widget.kelimeListesi.length - 1) {
+      setState(() {
+        currentIndex++;
+        anlamiGoster = false;
+      });
+      final prefs = await SharedPreferences.getInstance();
+      await prefs.setInt(widget.kategoriKey, currentIndex);
+    } else {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('Bu kategorideki tüm kelimeleri bitirdiniz!')),
+      );
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    if (widget.kelimeListesi.isEmpty) {
+      return Scaffold(
+        appBar: AppBar(title: Text(widget.kategoriAdi)),
+        body: const Center(child: Text("Bu kategoride kelime bulunamadı.")),
+      );
+    }
+
+    var aktifKelime = widget.kelimeListesi[currentIndex];
+
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(widget.kategoriAdi),
+        actions: [
+          Center(
+            child: Padding(
+              padding: const EdgeInsets.only(right: 16.0),
+              child: Text(
+                "${currentIndex + 1} / ${widget.kelimeListesi.length}",
+                style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+              ),
+            ),
+          )
+        ],
+      ),
       body: Padding(
-        padding: const EdgeInsets.all(24),
-        child: Column(children: [
-          Text("${index + 1} / ${widget.words.length}"),
-          const SizedBox(height: 20),
-          Text(word['en'], style: const TextStyle(fontSize: 40, fontWeight: FontWeight.bold)),
-          const SizedBox(height: 30),
-          TextField(controller: _ctrl, enabled: !isChecked, textAlign: TextAlign.center, decoration: const InputDecoration(border: OutlineInputBorder())),
-          const SizedBox(height: 20),
-          if (!isChecked) ElevatedButton(onPressed: check, child: const Text("Kontrol Et")),
-          if (isChecked) ...[
-            Text(feedback, style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
-            Text(word['tr'], style: const TextStyle(fontSize: 26, color: Colors.blue)),
+        padding: const EdgeInsets.all(24.0),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            const Text(
+              "İngilizce Kelime:",
+              textAlign: TextAlign.center,
+              style: TextStyle(fontSize: 18, color: Colors.grey),
+            ),
+            const SizedBox(height: 10),
+            Text(
+              aktifKelime['en'],
+              textAlign: TextAlign.center,
+              style: const TextStyle(fontSize: 42, fontWeight: FontWeight.bold, color: Colors.indigo),
+            ),
+            const SizedBox(height: 40),
+            if (anlamiGoster) ...[
+              const Text(
+                "Türkçe Anlamı:",
+                textAlign: TextAlign.center,
+                style: TextStyle(fontSize: 18, color: Colors.grey),
+              ),
+              const SizedBox(height: 10),
+              Text(
+                aktifKelime['tr'],
+                textAlign: TextAlign.center,
+                style: const TextStyle(fontSize: 28, fontWeight: FontWeight.w500, color: Colors.green),
+              ),
+            ] else ...[
+              ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  padding: const EdgeInsets.symmetric(vertical: 15),
+                  backgroundColor: Colors.orangeAccent,
+                ),
+                onPressed: () {
+                  setState(() {
+                    anlamiGoster = true;
+                  });
+                },
+                child: const Text("Anlamını Göster", style: TextStyle(fontSize: 20)),
+              ),
+            ],
             const Spacer(),
-            Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
-              OutlinedButton(onPressed: index > 0 ? () => setState(() { index--; isChecked = false; _ctrl.clear(); }) : null, child: const Text("Önceki")),
-              FilledButton(onPressed: () {
-                if (index < widget.words.length - 1) {
-                  setState(() { index++; isChecked = false; _ctrl.clear(); });
-                } else { Navigator.pop(context); }
-              }, child: Text(index == widget.words.length - 1 ? "Bitir" : "Sonraki")),
-            ])
-          ]
-        ]),
+            ElevatedButton(
+              style: ElevatedButton.styleFrom(
+                padding: const EdgeInsets.symmetric(vertical: 20),
+                backgroundColor: Colors.indigo,
+              ),
+              onPressed: anlamiGoster ? _sonrakiKelime : null, // Sadece anlamı görünce ileri gidebilir
+              child: const Text("Sonraki Kelime", style: TextStyle(fontSize: 20, color: Colors.white)),
+            ),
+          ],
+        ),
       ),
     );
   }
