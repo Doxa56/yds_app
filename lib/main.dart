@@ -122,7 +122,6 @@ class _CalismaEkraniState extends State<CalismaEkrani> {
     _kaldigimYeriYukle();
   }
 
-  // Hafızadan o kategori için kalınan son indexi çeker
   Future<void> _kaldigimYeriYukle() async {
     final prefs = await SharedPreferences.getInstance();
     setState(() {
@@ -130,7 +129,6 @@ class _CalismaEkraniState extends State<CalismaEkrani> {
     });
   }
 
-  // Yeni kelimeye geçince indexi hafızaya kaydeder
   Future<void> _sonrakiKelime() async {
     if (currentIndex < widget.kelimeListesi.length - 1) {
       setState(() {
@@ -143,6 +141,18 @@ class _CalismaEkraniState extends State<CalismaEkrani> {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(content: Text('Bu kategorideki tüm kelimeleri bitirdiniz!')),
       );
+    }
+  }
+
+  // YENİ EKLENEN FONKSİYON: Önceki Kelime
+  Future<void> _oncekiKelime() async {
+    if (currentIndex > 0) {
+      setState(() {
+        currentIndex--;
+        anlamiGoster = false; // Geri dönüldüğünde anlamı tekrar gizle ki kendini test edebil
+      });
+      final prefs = await SharedPreferences.getInstance();
+      await prefs.setInt(widget.kategoriKey, currentIndex);
     }
   }
 
@@ -217,13 +227,34 @@ class _CalismaEkraniState extends State<CalismaEkrani> {
               ),
             ],
             const Spacer(),
-            ElevatedButton(
-              style: ElevatedButton.styleFrom(
-                padding: const EdgeInsets.symmetric(vertical: 20),
-                backgroundColor: Colors.indigo,
-              ),
-              onPressed: anlamiGoster ? _sonrakiKelime : null, // Sadece anlamı görünce ileri gidebilir
-              child: const Text("Sonraki Kelime", style: TextStyle(fontSize: 20, color: Colors.white)),
+            
+            // YENİ EKLENEN TASARIM: Önceki ve Sonraki Butonları Yan Yana
+            Row(
+              children: [
+                Expanded(
+                  flex: 1,
+                  child: ElevatedButton(
+                    style: ElevatedButton.styleFrom(
+                      padding: const EdgeInsets.symmetric(vertical: 20),
+                      backgroundColor: Colors.blueGrey,
+                    ),
+                    onPressed: currentIndex > 0 ? _oncekiKelime : null, // İlk kelimede pasif olur
+                    child: const Text("Önceki", style: TextStyle(fontSize: 18, color: Colors.white)),
+                  ),
+                ),
+                const SizedBox(width: 16),
+                Expanded(
+                  flex: 2,
+                  child: ElevatedButton(
+                    style: ElevatedButton.styleFrom(
+                      padding: const EdgeInsets.symmetric(vertical: 20),
+                      backgroundColor: Colors.indigo,
+                    ),
+                    onPressed: anlamiGoster ? _sonrakiKelime : null,
+                    child: const Text("Sonraki Kelime", style: TextStyle(fontSize: 18, color: Colors.white)),
+                  ),
+                ),
+              ],
             ),
           ],
         ),
