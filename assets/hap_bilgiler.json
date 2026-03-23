@@ -49,6 +49,102 @@
       "ornek": "I WAS GOING TO CALL you, but my phone ran out of battery. (Arayacaktım ama...)"
     }
   ],
+  "modal_taktikleri": [
+    {
+      "baslik": "Taktik 1: Past Modals (Geçmişe Yönelik Çıkarımlar)",
+      "kural": "Eğer cümlenin genel zamanı geçmişse (yesterday, in 1990, last year) şıklarda 'must have V3', 'could have V3', 'might have V3' gibi 'Perfect Modal'ları aramalısın.",
+      "ipucu": "Cümlenin sonunda veya başında geçmiş zaman ipucu varsa, yalın modalları (can, must, should) direkt ele, 'have V3' alanlara yönel.",
+      "ornek": "The ground is completely wet. It MUST HAVE RAINED heavily last night. (Dün gece yağmış olmalı)."
+    },
+    {
+      "baslik": "Taktik 2: Kesin Çıkarım (Must have V3 vs Can't have V3)",
+      "kural": "Geçmişte yaşanmış bir olayla ilgili kanıtlara dayanarak güçlü bir tahminde bulunuyorsak olumluda 'must have V3' (yapmış olmalı), olumsuzda 'can't have V3' (yapmış olamaz) kullanırız.",
+      "ipucu": "Metinde 'I am sure', 'It is obvious', 'certainly' gibi kesinlik bildiren yapılar varsa cevap yüksek ihtimalle bu ikisinden biridir.",
+      "ornek": "He CAN'T HAVE STOLEN the car, because he was with me all day. (Çalmış olamaz)."
+    },
+    {
+      "baslik": "Taktik 3: Pişmanlık ve Eleştiri (Should have V3)",
+      "kural": "Geçmişte 'yapmalıydın ama yapmadın' (pişmanlık/eleştiri) anlamı vermek için kullanılır. Sınavda her zaman eleştirel bir bağlamda gelir.",
+      "ipucu": "Genellikle devamında 'but you didn't', 'unfortunately' gibi hayal kırıklığı veya hata bildiren zıtlık cümleleri bulunur.",
+      "ornek": "You SHOULD HAVE STUDIED harder for the exam, but you wasted your time. (Çalışmalıydın ama çalışmadın)."
+    },
+    {
+      "baslik": "Taktik 4: Gereksiz Yapılan Eylem (Needn't have V3)",
+      "kural": "Geçmişte bir şeyin yapılmasına gerek yoktu, ancak boşu boşuna yapıldı anlamı katar.",
+      "ipucu": "Cümlede 'It was a waste of money/time' veya 'We already had plenty of it' gibi 'zaten vardı, boşuna yapıldı' hissi veren kalıplarla test edilir.",
+      "ornek": "You NEEDN'T HAVE BOUGHT so much bread; we already have three loaves at home. (Almana gerek yoktu ama aldın)."
+    },
+    {
+      "baslik": "Taktik 5: Paragraf Kurtarıcısı 'Olasılık' Modalları",
+      "kural": "May, might, could modalları 'olabilir / ihtimal dahilinde' anlamı katar. Akademik metinlerde ve YDS paragraflarında bilimsel bir tahminden bahsediliyorsa doğru şık genellikle bu esnek modalları barındırır.",
+      "ipucu": "Şıklarda kesinlik (must, will, always, never) bildirenlerden uzak dur; esneklik (may, might, can, could, some) bildiren şıklara odaklan.",
+      "ornek": "The new drug MIGHT CURE the disease, but more research is needed. (Tedavi edebilir)."
+    }
+  ],
+  "passive_taktikleri": [
+    {
+      "baslik": "Taktik 1: Boşluktan Sonrası Kuralı (Nesne Avı)",
+      "kural": "İngilizcede edilgen (passive) fiillerden sonra genellikle doğrudan 'nesne' (isim) gelmez; onun yerine edat (in, on, at, by, with) gelir. Eğer boşluktan hemen sonra yalın bir isim varsa cevap Etken (Active), edat varsa cevap Edilgen (Passive) olma ihtimali %90'dır.",
+      "ipucu": "Boşluğa bak: \n[.......] a new method -> Active (geliştirdi). \n[.......] by a new method -> Passive (geliştirildi).",
+      "ornek": "The new policy WAS IMPLEMENTED by the government. (Implemented the government denmez!)."
+    },
+    {
+      "baslik": "Taktik 2: Hayat Kurtaran 'To' Kuralı",
+      "kural": "YDS'de is known, is thought, is believed, is expected gibi edilgen (passive) fiillerden sonra gelen ikinci fiil DAİMA 'to' ile başlar (to V1, to be Ving, to have V3). Asla Ving almazlar.",
+      "ipucu": "Boşluğun önünde 'is known' veya 'is estimated' varsa şıklarda direkt 'to' ile başlayan seçeneği ara.",
+      "ornek": "The suspect IS BELIEVED TO HAVE FLED the country. (Fleeing denmez)."
+    },
+    {
+      "baslik": "Taktik 3: Cansız Özne Mantığı",
+      "kural": "YÖKDİL ve YDS paragraflarında hastalıkların tedavisi, icatlar veya deneyler anlatılırken özneler cansız varlıklardır (The disease, the bridge, the experiment). Cansız özneler kendi kendine iş yapamayacağı için fiil çoğunlukla Passive olmalıdır.",
+      "ipucu": "Özneye sor: 'Kendi kendine yapabilir mi?' The experiment conduct (deney yapar) olmaz, IS CONDUCTED (deney yapılır) olur.",
+      "ornek": "A new species of dinosaur WAS DISCOVERED in Argentina last year."
+    },
+    {
+      "baslik": "Taktik 4: Yanından Edat Ayrılmayan Fiiller",
+      "kural": "Kendi özel edatı olan fiiller (associate with, base on, account for), edilgen (passive) yapıldıklarında bu edatları hemen yanlarında bitişik olarak tutarlar.",
+      "ipucu": "Eğer boşluktan hemen sonra 'with', 'on', 'to' gibi bir edat varsa, şıklarda 'is associated', 'is based', 'was contributed' gibi pasif yapıları ara.",
+      "ornek": "Lung cancer IS highly ASSOCIATED WITH heavy smoking."
+    }
+  ],
+  "if_clause_taktikleri": [
+    {
+      "baslik": "Taktik 1: 'If'in Yanına Will/Would Gelmez",
+      "kural": "If, unless, provided that gibi koşul bağlaçlarının hemen yanındaki (bitişiğindeki) cümleye ASLA will, would, shall veya going to gelmez.",
+      "ipucu": "Boşluk 'If'in hemen yanındaysa, şıklardaki 'will' ve 'would' içeren seçenekleri okumadan eleyebilirsin.",
+      "ornek": "If it RAINS (will rain değil) tomorrow, we will cancel the picnic."
+    },
+    {
+      "baslik": "Taktik 2: Type 2 mi, Type 3 mü? (Zaman İpucu)",
+      "kural": "Eğer cümlede 'now, today, at present' gibi ŞU AN'ı anlatan bir kelime varsa cevap Type 2 (V2 -> would V1) olmalıdır. Eğer cümlede 'yesterday, in 1990, last year' gibi GEÇMİŞİ anlatan bir kelime varsa cevap Type 3 (had V3 -> would have V3) olmalıdır.",
+      "ipucu": "Geçmiş zaman zarfı görüyorsan cümlenin iki tarafında da 'have V3 / had V3' (Perfect yapı) aramalısın.",
+      "ornek": "If they HAD TAKEN (Type 3) the necessary precautions last year, the crisis WOULD HAVE BEEN avoided."
+    },
+    {
+      "baslik": "Taktik 3: Karışık Tip (Mixed Conditional) Şifresi",
+      "kural": "Geçmişte olan bir olayın etkisi ŞU AN sürüyorsa, If'in yanı Type 3 (had V3), diğer taraf Type 2 (would V1) olur. Bu durum YDS'de genellikle temel cümlede kocaman bir 'NOW' veya 'TODAY' kelimesi verilerek test edilir.",
+      "ipucu": "Cümlenin bir yarısında 'yesterday', diğer yarısında 'now' varsa cevap kesinlikle [had V3] -> [would V1] kombinasyonudur.",
+      "ornek": "If I HAD STUDIED (dün çalışsaydım), I WOULD BE (şu an olurdum) more successful NOW."
+    },
+    {
+      "baslik": "Taktik 4: Devrik (Inverted) Yapılar",
+      "kural": "YDS, 'If' kelimesini cümleden atıp yerine yardımcı fiili başa alarak devrik cümle kurmayı çok sever. Cümle soru cümlesi olmadığı halde Had, Were veya Should ile başlıyorsa, o bir If cümlesidir.",
+      "ipucu": "Had I known = If I had known / Were he here = If he were here / Should you need = If you should need.",
+      "ornek": "HAD the government IMPLEMENTED the law, the inflation would have dropped. (Eğer uygulasaydı...)"
+    },
+    {
+      "baslik": "Taktik 5: 'Unless' (If not) Mantığı",
+      "kural": "Unless 'medikçe, madıkça' anlamı katar. Kendisi yapıca olumsuzdur, bu yüzden yanındaki cümleye 'not' almaz (Unless it doesn't rain DENMEZ). Ana cümle ise genellikle olumsuz bir sonuç bildirir.",
+      "ipucu": "Unless ile başlayan bir cümlenin diğer tarafında fail, deny, reject gibi olumsuz anlamlı fiiller veya won't, can't gibi negatif yapılar ara.",
+      "ornek": "UNLESS the company invests in new technologies, it WILL NOT SURVIVE in the market."
+    },
+    {
+      "baslik": "Taktik 6: 'Only if' Cümle Başı Kuralı",
+      "kural": "'Only if' (sadece ... şartıyla) cümlenin en başında kullanılıyorsa, kendisinden hemen sonra gelen İKİNCİ CÜMLE (temel cümle) devrik (soru gibi) olmak zorundadır.",
+      "ipucu": "Only if başta ise, virgülden sonrasına bak: 'we will win' değil, 'WILL WE win' olmalıdır.",
+      "ornek": "Only if we act together WILL WE OVERCOME this global crisis."
+    }
+  ],
   "baglac_taktikleri": [
     {
       "baslik": "Taktik 1: İsim Alanlar vs. Cümle Alanlar",
@@ -131,105 +227,6 @@
       "kural": "Paragrafta 'However, but, yet, despite this, unfortunately' gibi geçiş kelimeleri varsa, yazar asıl fikrini orada söylüyordur. Soruların cevapları %80 bu cümlelerde gizlidir.",
       "ipucu": "Metni tararken zıtlık bağlaçlarını fosforlu kalemle çizilmiş gibi fark et ve o cümleyi iki kere oku.",
       "ornek": "... Many thought the disease was eradicated. However, recent studies show a sudden increase in cases. (Soru buradan gelecek!)"
-    }
-  ]
-  ,
-  "modal_taktikleri": [
-    {
-      "baslik": "Taktik 1: Past Modals (Geçmişe Yönelik Çıkarımlar)",
-      "kural": "Eğer cümlenin genel zamanı geçmişse (yesterday, in 1990, last year) şıklarda 'must have V3', 'could have V3', 'might have V3' gibi 'Perfect Modal'ları aramalısın.",
-      "ipucu": "Cümlenin sonunda veya başında geçmiş zaman ipucu varsa, yalın modalları (can, must, should) direkt ele, 'have V3' alanlara yönel.",
-      "ornek": "The ground is completely wet. It MUST HAVE RAINED heavily last night. (Dün gece yağmış olmalı)."
-    },
-    {
-      "baslik": "Taktik 2: Kesin Çıkarım (Must have V3 vs Can't have V3)",
-      "kural": "Geçmişte yaşanmış bir olayla ilgili kanıtlara dayanarak güçlü bir tahminde bulunuyorsak olumluda 'must have V3' (yapmış olmalı), olumsuzda 'can't have V3' (yapmış olamaz) kullanırız.",
-      "ipucu": "Metinde 'I am sure', 'It is obvious', 'certainly' gibi kesinlik bildiren yapılar varsa cevap yüksek ihtimalle bu ikisinden biridir.",
-      "ornek": "He CAN'T HAVE STOLEN the car, because he was with me all day. (Çalmış olamaz)."
-    },
-    {
-      "baslik": "Taktik 3: Pişmanlık ve Eleştiri (Should have V3)",
-      "kural": "Geçmişte 'yapmalıydın ama yapmadın' (pişmanlık/eleştiri) anlamı vermek için kullanılır. Sınavda her zaman eleştirel bir bağlamda gelir.",
-      "ipucu": "Genellikle devamında 'but you didn't', 'unfortunately' gibi hayal kırıklığı veya hata bildiren zıtlık cümleleri bulunur.",
-      "ornek": "You SHOULD HAVE STUDIED harder for the exam, but you wasted your time. (Çalışmalıydın ama çalışmadın)."
-    },
-    {
-      "baslik": "Taktik 4: Gereksiz Yapılan Eylem (Needn't have V3)",
-      "kural": "Geçmişte bir şeyin yapılmasına gerek yoktu, ancak boşu boşuna yapıldı anlamı katar.",
-      "ipucu": "Cümlede 'It was a waste of money/time' veya 'We already had plenty of it' gibi 'zaten vardı, boşuna yapıldı' hissi veren kalıplarla test edilir.",
-      "ornek": "You NEEDN'T HAVE BOUGHT so much bread; we already have three loaves at home. (Almana gerek yoktu ama aldın)."
-    },
-    {
-      "baslik": "Taktik 5: Paragraf Kurtarıcısı 'Olasılık' Modalları",
-      "kural": "May, might, could modalları 'olabilir / ihtimal dahilinde' anlamı katar. Akademik metinlerde ve YDS paragraflarında bilimsel bir tahminden bahsediliyorsa doğru şık genellikle bu esnek modalları barındırır.",
-      "ipucu": "Şıklarda kesinlik (must, will, always, never) bildirenlerden uzak dur; esneklik (may, might, can, could, some) bildiren şıklara odaklan.",
-      "ornek": "The new drug MIGHT CURE the disease, but more research is needed. (Tedavi edebilir)."
-    }
-  ]
-  ,
-  "passive_taktikleri": [
-    {
-      "baslik": "Taktik 1: Boşluktan Sonrası Kuralı (Nesne Avı)",
-      "kural": "İngilizcede edilgen (passive) fiillerden sonra genellikle doğrudan 'nesne' (isim) gelmez; onun yerine edat (in, on, at, by, with) gelir. Eğer boşluktan hemen sonra yalın bir isim varsa cevap Etken (Active), edat varsa cevap Edilgen (Passive) olma ihtimali %90'dır.",
-      "ipucu": "Boşluğa bak: \n[.......] a new method -> Active (geliştirdi). \n[.......] by a new method -> Passive (geliştirildi).",
-      "ornek": "The new policy WAS IMPLEMENTED by the government. (Implemented the government denmez!)."
-    },
-    {
-      "baslik": "Taktik 2: Hayat Kurtaran 'To' Kuralı",
-      "kural": "YDS'de is known, is thought, is believed, is expected gibi edilgen (passive) fiillerden sonra gelen ikinci fiil DAİMA 'to' ile başlar (to V1, to be Ving, to have V3). Asla Ving almazlar.",
-      "ipucu": "Boşluğun önünde 'is known' veya 'is estimated' varsa şıklarda direkt 'to' ile başlayan seçeneği ara.",
-      "ornek": "The suspect IS BELIEVED TO HAVE FLED the country. (Fleeing denmez)."
-    },
-    {
-      "baslik": "Taktik 3: Cansız Özne Mantığı",
-      "kural": "YÖKDİL ve YDS paragraflarında hastalıkların tedavisi, icatlar veya deneyler anlatılırken özneler cansız varlıklardır (The disease, the bridge, the experiment). Cansız özneler kendi kendine iş yapamayacağı için fiil çoğunlukla Passive olmalıdır.",
-      "ipucu": "Özneye sor: 'Kendi kendine yapabilir mi?' The experiment conduct (deney yapar) olmaz, IS CONDUCTED (deney yapılır) olur.",
-      "ornek": "A new species of dinosaur WAS DISCOVERED in Argentina last year."
-    },
-    {
-      "baslik": "Taktik 4: Yanından Edat Ayrılmayan Fiiller",
-      "kural": "Kendi özel edatı olan fiiller (associate with, base on, account for), edilgen (passive) yapıldıklarında bu edatları hemen yanlarında bitişik olarak tutarlar.",
-      "ipucu": "Eğer boşluktan hemen sonra 'with', 'on', 'to' gibi bir edat varsa, şıklarda 'is associated', 'is based', 'was contributed' gibi pasif yapıları ara.",
-      "ornek": "Lung cancer IS highly ASSOCIATED WITH heavy smoking."
-    }
-  ]
-  ,
-  "if_clause_taktikleri": [
-    {
-      "baslik": "Taktik 1: 'If'in Yanına Will/Would Gelmez",
-      "kural": "If, unless, provided that gibi koşul bağlaçlarının hemen yanındaki (bitişiğindeki) cümleye ASLA will, would, shall veya going to gelmez.",
-      "ipucu": "Boşluk 'If'in hemen yanındaysa, şıklardaki 'will' ve 'would' içeren seçenekleri okumadan eleyebilirsin.",
-      "ornek": "If it RAINS (will rain değil) tomorrow, we will cancel the picnic."
-    },
-    {
-      "baslik": "Taktik 2: Type 2 mi, Type 3 mü? (Zaman İpucu)",
-      "kural": "Eğer cümlede 'now, today, at present' gibi ŞU AN'ı anlatan bir kelime varsa cevap Type 2 (V2 -> would V1) olmalıdır. Eğer cümlede 'yesterday, in 1990, last year' gibi GEÇMİŞİ anlatan bir kelime varsa cevap Type 3 (had V3 -> would have V3) olmalıdır.",
-      "ipucu": "Geçmiş zaman zarfı görüyorsan cümlenin iki tarafında da 'have V3 / had V3' (Perfect yapı) aramalısın.",
-      "ornek": "If they HAD TAKEN (Type 3) the necessary precautions last year, the crisis WOULD HAVE BEEN avoided."
-    },
-    {
-      "baslik": "Taktik 3: Karışık Tip (Mixed Conditional) Şifresi",
-      "kural": "Geçmişte olan bir olayın etkisi ŞU AN sürüyorsa, If'in yanı Type 3 (had V3), diğer taraf Type 2 (would V1) olur. Bu durum YDS'de genellikle temel cümlede kocaman bir 'NOW' veya 'TODAY' kelimesi verilerek test edilir.",
-      "ipucu": "Cümlenin bir yarısında 'yesterday', diğer yarısında 'now' varsa cevap kesinlikle [had V3] -> [would V1] kombinasyonudur.",
-      "ornek": "If I HAD STUDIED (dün çalışsaydım), I WOULD BE (şu an olurdum) more successful NOW."
-    },
-    {
-      "baslik": "Taktik 4: Devrik (Inverted) Yapılar",
-      "kural": "YDS, 'If' kelimesini cümleden atıp yerine yardımcı fiili başa alarak devrik cümle kurmayı çok sever. Cümle soru cümlesi olmadığı halde Had, Were veya Should ile başlıyorsa, o bir If cümlesidir.",
-      "ipucu": "Had I known = If I had known / Were he here = If he were here / Should you need = If you should need.",
-      "ornek": "HAD the government IMPLEMENTED the law, the inflation would have dropped. (Eğer uygulasaydı...)"
-    },
-    {
-      "baslik": "Taktik 5: 'Unless' (If not) Mantığı",
-      "kural": "Unless 'medikçe, madıkça' anlamı katar. Kendisi yapıca olumsuzdur, bu yüzden yanındaki cümleye 'not' almaz (Unless it doesn't rain DENMEZ). Ana cümle ise genellikle olumsuz bir sonuç bildirir.",
-      "ipucu": "Unless ile başlayan bir cümlenin diğer tarafında fail, deny, reject gibi olumsuz anlamlı fiiller veya won't, can't gibi negatif yapılar ara.",
-      "ornek": "UNLESS the company invests in new technologies, it WILL NOT SURVIVE in the market."
-    },
-    {
-      "baslik": "Taktik 6: 'Only if' Cümle Başı Kuralı",
-      "kural": "'Only if' (sadece ... şartıyla) cümlenin en başında kullanılıyorsa, kendisinden hemen sonra gelen İKİNCİ CÜMLE (temel cümle) devrik (soru gibi) olmak zorundadır.",
-      "ipucu": "Only if başta ise, virgülden sonrasına bak: 'we will win' değil, 'WILL WE win' olmalıdır.",
-      "ornek": "Only if we act together WILL WE OVERCOME this global crisis."
     }
   ]
 }
