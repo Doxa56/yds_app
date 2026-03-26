@@ -10,18 +10,22 @@ YDS (Yabancı Dil Sınavı) ve YÖKDİL sınavlarına hazırlık yapmak için ta
 - **İlerleme Takibi**: Verileriniz cihazınızda güvenli şekilde saklanır
 - **Kullanıcı Dostu Arayüz**: Material Design ile tasarlanmış modern arayüz
 
-## � Ekran Görüntüleri
+## 📸 Ekran Görüntüleri
 
-<div align="center">
-  <img src="assets/images/1.jpeg" width="200" alt="Ana Sayfa"/>
-  <img src="assets/images/2.jpeg" width="200" alt="Kelime Çalışması"/>
-  <img src="assets/images/3.jpeg" width="200" alt="Telaffuz"/>
-  <img src="assets/images/4.jpeg" width="200" alt="İlerleme"/>
-  <img src="assets/images/5.jpeg" width="200" alt="Ayarlar"/>
-  <img src="assets/images/6.jpeg" width="200" alt="Veriler"/>
-</div>
+<table align="center">
+  <tr>
+    <td><img src="assets/images/1.jpeg" width="200" alt="Ana Sayfa"/></td>
+    <td><img src="assets/images/2.jpeg" width="200" alt="Kelime Çalışması"/></td>
+    <td><img src="assets/images/3.jpeg" width="200" alt="Telaffuz"/></td>
+  </tr>
+  <tr>
+    <td><img src="assets/images/4.jpeg" width="200" alt="İlerleme"/></td>
+    <td><img src="assets/images/5.jpeg" width="200" alt="Ayarlar"/></td>
+    <td><img src="assets/images/6.jpeg" width="200" alt="Veriler"/></td>
+  </tr>
+</table>
 
-## �🚀 Kurulum
+## 🚀 Kurulum
 
 ### 📦 Releases (Sürümler)
 
@@ -32,11 +36,14 @@ YDS (Yabancı Dil Sınavı) ve YÖKDİL sınavlarına hazırlık yapmak için ta
 
 #### İndirme Seçenekleri:
 
-1. **GitHub Releases Sayfasından İndir:**
+1. **Doğrudan APK İndir:**
+   - [app-arm64-v8a-release.apk indir](https://github.com/Doxa56/yds_app/releases/download/v1.0.0/app-arm64-v8a-release.apk)
+
+2. **GitHub Releases Sayfasından İndir:**
    - [GitHub Releases Sayfası](https://github.com/Doxa56/yds_app/releases)
    - En son sürüme tıklayın ve APK dosyasını indirin
 
-2. **GitHub Actions Artifacts'tan İndir (Güncel Build):**
+3. **GitHub Actions Artifacts'tan İndir (Güncel Build):**
    - Repository'ye gidin
    - **Actions** sekmesine tıklayın
    - En son başarılı workflow'a tıklayın
