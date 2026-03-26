@@ -20,5 +20,5 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/words.json
-    - assets/hap_bilgiler.json
+    - assets/
+    - assets/images/

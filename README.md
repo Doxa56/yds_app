@@ -10,7 +10,39 @@ YDS (Yabancı Dil Sınavı) ve YÖKDİL sınavlarına hazırlık yapmak için ta
 - **İlerleme Takibi**: Verileriniz cihazınızda güvenli şekilde saklanır
 - **Kullanıcı Dostu Arayüz**: Material Design ile tasarlanmış modern arayüz
 
-## 🚀 Kurulum
+## � Ekran Görüntüleri
+
+<div align="center">
+  <img src="assets/images/1.jpeg" width="200" alt="Ana Sayfa"/>
+  <img src="assets/images/2.jpeg" width="200" alt="Kelime Çalışması"/>
+  <img src="assets/images/3.jpeg" width="200" alt="Telaffuz"/>
+  <img src="assets/images/4.jpeg" width="200" alt="İlerleme"/>
+  <img src="assets/images/5.jpeg" width="200" alt="Ayarlar"/>
+  <img src="assets/images/6.jpeg" width="200" alt="Veriler"/>
+</div>
+
+## �🚀 Kurulum
+
+### 📦 Sürüm Seçenekleri
+
+**En Son Sürüm: v1.0.0** (26 Mart 2026)
+
+#### İndirme Seçenekleri:
+
+| Sürüm | Tarih | İndirme |
+|-------|-------|----------|
+| **v1.0.0** | 26 Mart 2026 | [app-release-v1.0.0.apk](https://github.com/Doxa56/yds/releases/download/v1.0.0/app-release-v1.0.0.apk) |
+
+#### Sürüm Notları (v1.0.0):
+- ✅ YDS ve YÖKDİL sınavlarına hazırlık kelimelerinin eklenmiş olması
+- ✅ Telaffuz bilgilerinin entegrasyonu
+- ✅ İlerleme takibi sistemi
+- ✅ Offline çalışma desteği
+- ✅ Modern Material Design arayüzü
+
+**Sistem Gereksinimleri:**
+- Android 5.0 (API Level 21) ve üzeri
+- Minimum 50MB boş depolama alanı
 
 ### Tek-Tıklamalı Kurulum (Önerilen)
 
