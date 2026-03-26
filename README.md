@@ -23,26 +23,55 @@ YDS (Yabancı Dil Sınavı) ve YÖKDİL sınavlarına hazırlık yapmak için ta
 
 ## �🚀 Kurulum
 
-### 📦 Sürüm Seçenekleri
+### 📦 Releases (Sürümler)
 
-**En Son Sürüm: v1.0.0** (26 Mart 2026)
+### 📥 En Son Sürümü İndirin
+
+**Sürüm: v1.0.0**  
+**Yayın Tarihi:** 23 Mart 2026
 
 #### İndirme Seçenekleri:
 
-| Sürüm | Tarih | İndirme |
-|-------|-------|----------|
-| **v1.0.0** | 26 Mart 2026 | [app-release-v1.0.0.apk](https://github.com/Doxa56/yds/releases/download/v1.0.0/app-release-v1.0.0.apk) |
+1. **GitHub Releases Sayfasından İndir:**
+   - [GitHub Releases Sayfası](https://github.com/Doxa56/yds_app/releases)
+   - En son sürüme tıklayın ve APK dosyasını indirin
+
+2. **GitHub Actions Artifacts'tan İndir (Güncel Build):**
+   - Repository'ye gidin
+   - **Actions** sekmesine tıklayın
+   - En son başarılı workflow'a tıklayın
+   - **Artifacts** bölümünden APK indirin
 
 #### Sürüm Notları (v1.0.0):
-- ✅ YDS ve YÖKDİL sınavlarına hazırlık kelimelerinin eklenmiş olması
-- ✅ Telaffuz bilgilerinin entegrasyonu
-- ✅ İlerleme takibi sistemi
-- ✅ Offline çalışma desteği
-- ✅ Modern Material Design arayüzü
 
-**Sistem Gereksinimleri:**
+```
+🔧 Yapılan Değişiklikler:
+- ✅ Loop sorunu çözüldü
+- ✅ Uygulamanın genel stabil hali
+```
+
+#### Sistem Gereksinimleri:
 - Android 5.0 (API Level 21) ve üzeri
 - Minimum 50MB boş depolama alanı
+
+---
+
+### 📜 Sürüm Geçmişi
+
+| Sürüm | Tarih | Durum |
+|-------|-------|-------|
+| **v1.0.0** | 23 Mart 2026 | ✅ Stabil (Mevcut) |
+| v0.5.x | Önceki | ✅ Eski Sürümler |
+| v0.4.x | Önceki | ✅ Eski Sürümler |
+| v0.3.x | Önceki | ✅ Eski Sürümler |
+| v0.2.x | Önceki | ✅ Eski Sürümler |
+| v0.1.x | Önceki | ✅ Alfa |
+
+> **Not:** Eski sürümler için [Releases](https://github.com/Doxa56/yds_app/releases) sayfasını ziyaret edin.
+
+---
+
+## 🚀 Kurulum
 
 ### Tek-Tıklamalı Kurulum (Önerilen)
 
